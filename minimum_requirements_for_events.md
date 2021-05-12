@@ -6,7 +6,11 @@ As of April 2021, "events" are assumed to be "virtual events" only.
 
 - [ ] Have a Bioconductor focus or be of interest to bioconductor users/developers
 - [ ] Ensure all participants have access to read and accept the code of conduct. Have a mechanism in place to report and address CoC issues.
-
+- [ ] Website for the event
+- [ ] Contacting to workshop@bioconductor.org
+- [ ] Determining the date and time
+- [ ] CoC settings based on http://bioconductor.org/about/code-of-conduct/
+- [ ] 
 
 ### Considerations
 
