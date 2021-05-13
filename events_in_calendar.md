@@ -2,13 +2,16 @@
 
 [The Google Calendar](http://bioconductor.org/help/events/)
 
-## List of the events
+## BioC
+
+1. [BioC2021](https://bioc2021.bioconductor.org/)
+1. BioCAsia2021
+1. EuroBioC2021
+
+## List of the Bioconductor events
 
 1. [Bio"Packathon" (in Japan)](https://sites.google.com/view/biopackathon)
 2. [Developers' Forum](https://www.youtube.com/watch?v=_QsFRiOBjt8)
-3. [BioC2021](https://bioc2021.bioconductor.org/)
-4. [BioCAsia2021]()
-5. [EuroBioC2021]()
 
 ## List of the events to be added?
 
