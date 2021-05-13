@@ -12,6 +12,7 @@
 
 1. [Bio"Packathon" (in Japan)](https://sites.google.com/view/biopackathon)
 2. [Developers' Forum](https://www.youtube.com/watch?v=_QsFRiOBjt8)
+3. [Terra / AnVIL R / Bioconductor Popup Workshops](https://docs.google.com/document/d/e/2PACX-1vSVGCaX-wnWyu1TUhhbsoVeTCJ6ODLG53OeMHKRbewGQOqOcMTnZQl7_jrR9kqOPQPlsFN1ecLT4lhd/pub)
 
 ## List of the events to be added?
 
