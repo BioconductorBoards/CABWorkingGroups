@@ -15,6 +15,7 @@ As of May 2021, "events" are assumed to be "virtual events" only.
 - [ ] Website for the event
 - [ ] Recording video of the event and sharing the video using [the Bioconductor YouTube channel](https://www.youtube.com/user/bioconductor)
 - [ ] Workshops using https://github.com/seandavi/BuildABiocWorkshop as the template
+- [ ] Ensure good gender balance of invited speakers
 
 ### Considerations
 
