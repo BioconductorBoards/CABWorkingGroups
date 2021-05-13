@@ -22,6 +22,7 @@
 
 ## List of the events to be added?
 
+- Bioc-teaching call
 - H3ABioNet 
 - R ladies
 - LIBD rstats club
