@@ -6,7 +6,7 @@ As of May 2021, "events" are assumed to be "virtual events" only.
 ## Host Checklist (Community events related to Bioconductor)
 
 - [ ] Have a Bioconductor focus or be of interest to bioconductor users/developers
-- [ ] Contacting to workshop@bioconductor.org
+- [ ] Contacting to workshop@bioconductor.org before at least 2weeks in advance.
 - [ ] Determining the date and time
 
 ## Host Checklist (BioC)
@@ -16,6 +16,7 @@ As of May 2021, "events" are assumed to be "virtual events" only.
 - [ ] Recording video of the event and sharing the video using [the Bioconductor YouTube channel](https://www.youtube.com/user/bioconductor)
 - [ ] Workshops using https://github.com/seandavi/BuildABiocWorkshop as the template
 - [ ] Ensure good gender balance of invited speakers
+- [ ] Contacting to workshop@bioconductor.org before at least 4months in advance.
 
 ### Considerations
 
