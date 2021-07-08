@@ -68,7 +68,7 @@ body:
       options:
         - label: This event a Bioconductor focus or be of interest to Bioconductor users/developers
           required: true
+      options:
         - label: This is our [Code of Conduct](https://example.com)
           required: true
-        - label: This event a Bioconductor focus or be of interest to Bioconductor users/developers
-          required: true
+
