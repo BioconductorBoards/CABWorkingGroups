@@ -37,7 +37,7 @@ body:
   - type: textarea
     id: video-storage
     attributes:
-      label: Network storage where video is located
+      label: Network storage where your video is located
       description: Where can we get your video?
     validations:
       required: true
