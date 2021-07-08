@@ -67,6 +67,7 @@ body:
       description: Please check the following before submitting.
       options:
         - label: This event a Bioconductor focus or be of interest to Bioconductor users/developers
+          required: true
         - label: The event organizer read and confirmed the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
           required: true
         - label: The event have the Code of Conduct derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
