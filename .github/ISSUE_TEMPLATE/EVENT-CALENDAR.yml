@@ -67,4 +67,5 @@ body:
       description: Please check the following before submitting.
       options:
         - label: This event a Bioconductor focus or be of interest to Bioconductor users/developers
-        - label: This is our [Code of Conduct](https://example.com)
+        - label: The event organizer read and confirmed the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
+        - label: The event have the Code of Conduct derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
