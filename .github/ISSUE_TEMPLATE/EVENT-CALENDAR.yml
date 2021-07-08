@@ -12,9 +12,10 @@ body:
         Submit this form and your event will be listed on the bioconductor.org calendar.
         Please review the following minimum requirements before submitting this form:
         
-          1. Having a Bioconductor focus or be of interest to Bioconductor users/developers
-          2. The event organizer should (read and) confirm the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
-          3. The event organizer should specify a Code of Conduct derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
+          1. Having a Bioconductor focus or be of interest to Bioconductor users/developers.
+          2. The event organizer should (read and) confirm the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/).
+          3. The event organizer should specify a Code of Conduct (CoC) derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/).
+          4. The event organizer should summarise the CoC. (The event participants might not have time to read the CoC in a busy class, so it is good to take some time out.)
         
         Thanks for taking the time to fill out this form!
   - type: input
@@ -66,9 +67,12 @@ body:
       label: Checklist
       description: Please check the following before submitting.
       options:
-        - label: This event a Bioconductor focus or be of interest to Bioconductor users/developers
+        - label: This event a Bioconductor focus or be of interest to Bioconductor users/developers.
           required: true
-        - label: The event organizer read and confirmed the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
+        - label: The event organizer read and confirmed the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/).
           required: true
-        - label: The event have the Code of Conduct derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
+        - label: The event have the Code of Conduct (CoC) derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/).
           required: true
+        - label: The event organizer should summarise the CoC.
+          required: true
+          
