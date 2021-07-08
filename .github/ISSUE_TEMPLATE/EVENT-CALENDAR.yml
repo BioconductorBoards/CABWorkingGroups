@@ -13,7 +13,8 @@ body:
         Please review the following minimum requirements before submitting this form:
         
           1. Having a Bioconductor focus or be of interest to Bioconductor users/developers
-          2. The event organizer will read and confirm the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
+          2. The event organizer should (read and) confirm the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
+          3. The event organizer should specify a Code of Conduct derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/)
         
         Thanks for taking the time to fill out this form!
   - type: input
@@ -60,10 +61,14 @@ body:
       label: Comment field
       description: Please let us know if there is anything else. For example, the above events are repeated regularly.
   - type: checkboxes
-    id: terms
+    id: checklist
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Checklist
+      description: Please check the following before submitting.
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: This event a Bioconductor focus or be of interest to Bioconductor users/developers
+          required: true
+        - label: This is our [Code of Conduct](https://example.com)
+          required: true
+        - label: This event a Bioconductor focus or be of interest to Bioconductor users/developers
           required: true
