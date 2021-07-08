@@ -1,4 +1,4 @@
-name: Event Calendar Request
+name: Request to add Bioconductor event calendar 
 description: File a event calendar request
 title: "[Event]: "
 labels: [event, calendar]
