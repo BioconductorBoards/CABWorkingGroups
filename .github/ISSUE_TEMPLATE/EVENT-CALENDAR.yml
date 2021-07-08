@@ -33,32 +33,32 @@ body:
       value: "It involves Bioconductor-centric workshops. It is organized by XXX."
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: startdatetime
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+      label: Start date and time
+      description: When does the event start?
     validations:
       required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
   - type: textarea
-    id: logs
+    id: enddatetime
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: End date and time
+      description: When does the event end?
+    validations:
+      required: true
+  - type: textarea
+    id: timezone
+    attributes:
+      label: Time zone
+      description: What is the time zone for the event date and time?
+    validations:
+      required: true
+  - type: textarea
+    id: comment
+    attributes:
+      label: Comment field
+      description: Please let us know if there is anything else. For example, the above events are repeated regularly.
   - type: checkboxes
     id: terms
     attributes:
