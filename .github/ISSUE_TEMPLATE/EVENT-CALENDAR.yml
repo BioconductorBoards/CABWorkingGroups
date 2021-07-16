@@ -71,8 +71,8 @@ body:
           required: true
         - label: The event organizer read and confirmed the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/).
           required: true
-        - label: The event have the Code of Conduct (CoC) derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/).
+        - label: The event has the Code of Conduct (CoC) derived from the partner organization or the [Bioconductor Code of Conduct](http://bioconductor.org/about/code-of-conduct/).
           required: true
-        - label: The event organizer should summarise the CoC.
+        - label: The event organizer have the shorter version (summary) of the CoC.
           required: true
           
