@@ -1,0 +1,24 @@
+00:00 Chapter0
+00:40 CAB members
+01:20 CAB goals
+01:50 CAB business, funding
+02:50 CAB application (CZI)
+04:30 CAB working groups on GitHub
+05:10 CAB multilingual working group
+06:20 CAB in Mexico (Leonardo Collado-Torres)
+06:50 CAB in Japan (Kozo Nishida)
+07:10 CAB in Africa (Yagoub AI Adam)
+07:40 CAB in meetup.com
+08:00 CAB calendar and event working group
+10:50 CAB teaching committee (Kevin Rue-Albrecht, Susan Holmes)
+11:10 CAB publication working group (Susan Holmes)
+11:20 CAB supporting developers 
+11:40 Developer's Forum (monthly recordings on YouTube, Mike Smith)
+12:20 CAB packaging review working group (joint with TAB, Kevin Rue-Albrecht, Lori Shepherd)
+12:50 Developer mentorship program
+14:40 CAB Code of Conduct working group (led by Saskia Freytag)
+15:50 Hexstickers (Johannes Rainer)
+16:30 BiocAwards 2021
+16:40 Celebrating 20 years of Bioconductor
+25:00 Meet the CAB members
+31:50 Questions to CAB
