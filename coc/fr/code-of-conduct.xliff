@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="1" original="/code-of-conduct.md" source-language="en" target-language="fr" datatype="plaintext" project-id="469332" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="1" translate="no">
+        <source>/images/icons/magnifier.gif</source>
+        <target>/images/icons/magnifier.gif</target>
+        <note from="Crowdin" priority="2">Image Source&#13;
+XPath: /h1/l/img[@src]</note>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Project-wide Code of Conduct statement for Bioconductor</source>
+        <target state="translated">Code de bonne conduite applicable à l’intégralité du projet Bioconductor</target>
+        <note from="Crowdin" priority="2">Headline 1&#13;
+XPath: /h1</note>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>(Adapted from the &lt;a href=&quot;https://bioc2020.bioconductor.org/code_of_conduct&quot; f-id=&quot;1&quot; lbb=&quot;2&quot; fo=&quot;1&quot;&gt;BioC 2020 Code of Conduct&lt;/a&gt;)</source>
+        <target state="translated">(Adapté du &lt;a href=&quot;https://bioc2020.bioconductor.org/code_of_conduct&quot; f-id=&quot;1&quot; lbb=&quot;2&quot; fo=&quot;1&quot;&gt;Code de bonne conduite pour la conférence BioC 2020&lt;/a&gt;)</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p</note>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>Code of Conduct</source>
+        <target state="translated">Code de bonne conduite</target>
+        <note from="Crowdin" priority="2">Headline 1&#13;
+XPath: /h1[2]</note>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Version 1.0.1 (November 25, 2020)</source>
+        <target state="translated">Version 1.0.1 (25 Novembre 2020)</target>
+        <note from="Crowdin" priority="2">Text&#13;
+XPath: /p[2]/strong</note>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Initial project-wide Code of Conduct, expanded from previous conference-specific documents</source>
+        <target state="translated">Version initiale du code de bonne conduite applicable à l’intégralité du projet Bioconductor, étendu sur la base de documents spécifiquement rédigés pour des conférences antérieures</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul/li</note>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>The Bioconductor community values</source>
+        <target state="translated">Les valeurs de la communauté Bioconductor</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[3]</note>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>an open approach to science that promotes the sharing of ideas, code, and expertise</source>
+        <target state="translated">une approche ouverte aux sciences, favorisant l’échange d’idées, de code, et d’expertise</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[2]/li</note>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>collaboration</source>
+        <target state="translated">collaboration</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[2]/li[2]</note>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>diversity and inclusivity</source>
+        <target state="translated">diversité et inclusion</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[2]/li[3]</note>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>a kind and welcoming environment</source>
+        <target state="translated">un environnement accueillant et chaleureux</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[2]/li[4]</note>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>community contributions</source>
+        <target state="translated">contributions de la communauté</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[2]/li[5]</note>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>In line with these values, Bioconductor is dedicated to providing a welcoming, supportive, collegial, experience free of harassment, intimidation, and bullying regardless of:</source>
+        <target state="translated">Conformément à ces valeurs, Bioconductor se consacre à fournir une expérience accueillante, solidaire, collégiale, sans harcèlement, intimidation et intimidation, indépendamment de :</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[4]</note>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>identity: gender, gender identity and expression, sexual orientation, disability, physical appearance, ethnicity, body size, race, age, religion, etc.</source>
+        <target state="translated">identité: genre, identité et expression du genre, orientation sexuelle, handicap, apparence physique, ethnicité, taille, race, âge, religion, etc.</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[3]/li</note>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>intellectual position: approaches to data analysis, software preferences, coding style, scientific perspective, etc.</source>
+        <target state="translated">position intellectuelle : approches envers l'analyse de données, préférences logicielles, style de codage, perspective scientifique, etc.</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[3]/li[2]</note>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>stage of career</source>
+        <target state="translated">phase de carrière</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[3]/li[3]</note>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>By participating in this community, you agree not to engage in behavior contrary to these values at any Bioconductor-sponsored event (in person or virtual, including but not limited to talks, workshops, poster sessions, social activities) or electronic communication channel (including but not limited to community-bioc Slack, the support site, online forums and social media communications).</source>
+        <target state="translated">En participant à cette communauté, vous acceptez de ne pas adopter un comportement contraire à ces valeurs lors de tout événement parrainé par Bioconductor (en personne ou virtuel, y compris, mais sans s'y limiter, conférences, séminaires, presentations de posters, activités sociales) ou tout canal de communication électronique (y compris, mais sans s'y limiter, l'espace de travail Slack &quot;community-bioc&quot;, le site de support, les forums en ligne et les communications sur les médias sociaux).</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[5]</note>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>We do not tolerate harassment, intimidation, or bullying of community members.</source>
+        <target state="translated">Nous ne tolérons pas le harcèlement, l'intimidation ou la persécution des membres de la communauté.</target>
+        <note from="Crowdin" priority="2">XPath: /p[6]</note>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Sexual language and imagery are not appropriate in presentations, communications or in online venues, including chats.</source>
+        <target state="translated">Le langage sexuel et l'imagerie sont inappropriés dans les présentations, les communications ou les sites en ligne, y compris les chats.</target>
+        <note from="Crowdin" priority="2">XPath: /p[6]</note>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Any person/s violating the Code of Conduct may be sanctioned or expelled temporarily or permanently from an electronic platform or event at the discretion of the Code of Conduct committee.</source>
+        <target state="translated">Toute personne qui enfreint le Code de conduite peut être sanctionnée ou expulsée temporairement ou définitivement d'une plate-forme électronique ou d'un événement à la discrétion du comité du code de conduite.</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[7]</note>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Examples of unacceptable harassment, intimidation, and bullying behavior.</source>
+        <target state="translated">Exemples de harcèlement, d'intimidation et d'intimidation inacceptables.</target>
+        <note from="Crowdin" priority="2">Text&#13;
+XPath: /p[8]/strong</note>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Harassment includes, but is not limited to:</source>
+        <target state="translated">Le harcèlement inclut, mais ne se limite pas à :</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[9]</note>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>Making comments in chats, to an audience or personally, that belittle or demean another person</source>
+        <target state="translated">Faire des commentaires dans les chats, publiquement ou personnellement, qui déprécient ou dévalorisent une autre personne</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[4]/li</note>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Sharing sexual images online</source>
+        <target state="translated">Partager des images sexuelles en ligne</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[4]/li[2]</note>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>Harassing photography or recording</source>
+        <target state="translated">Harceler par le biais de photographie ou enregistrement</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[4]/li[3]</note>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Sustained disruption of talks or other events</source>
+        <target state="translated">Interrompre de façon prolongée des présentations ou autres événements</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[4]/li[4]</note>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Unwelcome sexual attention</source>
+        <target state="translated">Des avances sexuelle indésirables</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[4]/li[5]</note>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Advocating for, or encouraging, any of the above behavior</source>
+        <target state="translated">Défendre ou encourager l'un des comportements ci-dessus</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[4]/li[6]</note>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Intimidation and bullying include, but are not limited to:</source>
+        <target state="translated">L'intimidation et la persécution incluent, mais ne sont pas limitées à:</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[10]</note>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Aggressive or browbeating behavior</source>
+        <target state="translated">Un comportement agressif ou intimidant</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[5]/li</note>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Mocking or insulting another person’s intellect, work, perspective, or question/comment</source>
+        <target state="translated">Se moquer ou insulter l'intelligence, le travail, la perspective, la question ou le commentaire d'une autre personne</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[5]/li[2]</note>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>Making reference to someone’s gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, or other personal attributes in the context of a scientific discussion</source>
+        <target state="translated">Faire référence au sexe, à l’identité et à l’expression de genre, à l’orientation sexuelle, au handicap, à l’apparence physique, la taille, la race, l'âge, la religion ou d'autres attributs personnels dans le contexte d'une discussion scientifique</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[5]/li[3]</note>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Deliberately making someone feel unwelcome</source>
+        <target state="translated">Délibérément faire quelqu'un se sentir rejeté</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[5]/li[4]</note>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>Trolling behaviour (deliberately inflammatory of offensive messages)</source>
+        <target state="translated">Un comportement de &quot;trolling&quot; (envoi de messages délibérément inflammatoires ou offensifs)</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[5]/li[5]</note>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>Sustained off-topic posts</source>
+        <target state="translated">L'envoi continu de messages hors-sujet</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[5]/li[6]</note>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>Enforcement</source>
+        <target state="translated">Mise en application</target>
+        <note from="Crowdin" priority="2">Text&#13;
+XPath: /p[11]/strong</note>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>Anyone asked to stop harassing or intimidating behavior are expected to comply immediately.</source>
+        <target state="translated">Toute personne invitée à cesser un comportement de harcèlement ou d’intimidation devrait se conformer immédiatement aux instructions reçues.</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[12]</note>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>If a person/s contravene the Code of Conduct the Code of Conduct committee retains the right to take any action that ensures a welcoming environment for all community members.</source>
+        <target state="translated">Si une personne contrevient au Code de conduite, le comité du Code de conduite se réserve le droit de prendre des mesures qui garantissent un environnement accueillant pour tous les membres de la communauté.</target>
+        <note from="Crowdin" priority="2">XPath: /p[13]</note>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>This includes warning the alleged offender or temporary/permanent expulsion from the event and/or electronic platforms under Bioconductor’s control.</source>
+        <target state="translated">Cela inclut l'avertissement du délinquant présumé ou son expulsion temporaire ou permanente de l'événement et/ou des plateformes électroniques sous le contrôle de Bioconductor.</target>
+        <note from="Crowdin" priority="2">XPath: /p[13]</note>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>The Code of Conduct committee may take action to redress anything designed to, or with the clear impact of, disrupting an event or electronic communication platform or making the environment hostile for any community member.</source>
+        <target state="translated">Le comité du code de bonne conduite peut prendre des mesures pour réparer toute action visant à, ou causant clairement, la perturbation d'un événement ou d'une plateforme de communication électronique, ou rendant l'environnement hostile à tout membre de la communauté.</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[14]</note>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>We expect everyone in the Bioconductor community to comply with the Code of Conduct when participating in Bioconductor events and online communication platforms.</source>
+        <target state="translated">Nous attendons de tous les membres de la communauté Bioconductor qu'ils se conforment au Code de bonne conduite lorsqu'ils participent aux événements Bioconductor et aux plateformes de communication en ligne.</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[15]</note>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Reporting</source>
+        <target state="translated">Signalement</target>
+        <note from="Crowdin" priority="2">Text&#13;
+XPath: /p[16]/strong</note>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible.</source>
+        <target state="translated">Si quelqu'un vous fait sentir en danger ou indésirable, veuillez le signaler dès que possible.</target>
+        <note from="Crowdin" priority="2">XPath: /p[17]</note>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>You can make a report either anonymously or personally.</source>
+        <target state="translated">Vous pouvez remplir le formulaire de signalement de façon anonyme ou accompagné de votre nom.</target>
+        <note from="Crowdin" priority="2">XPath: /p[17]</note>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>All reports will be reviewed by the Code of Conduct Committee and will be kept confidential.</source>
+        <target state="translated">Tous les signalements seront examinés par le Comité du Code de bonne conduite et resteront confidentiels.</target>
+        <note from="Crowdin" priority="2">XPath: /p[17]</note>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>Electronically</source>
+        <target state="translated">Electroniquement</target>
+        <note from="Crowdin" priority="2">Text&#13;
+XPath: /p[18]/em</note>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>You can make an anonymous or non-anonymous report via the following link:
+&lt;a href=&quot;https://tinyurl.com/bioccomplaint&quot; f-id=&quot;2&quot; fo=&quot;2&quot;&gt;https://tinyurl.com/bioccomplaint&lt;/a&gt;.</source>
+        <target state="translated">Vous pouvez faire un rapport anonyme ou accompagné de votre nom via le lien suivant :
+&lt;a href=&quot;https://tinyurl.com/bioccomplaint&quot; f-id=&quot;2&quot; fo=&quot;2&quot;&gt;https://tinyurl.com/bioccomplaint&lt;/a&gt;.</target>
+        <note from="Crowdin" priority="2">XPath: /p[19]</note>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>It is a free-form text box that will be forwarded to the Code of Conduct Committee.</source>
+        <target state="translated">Il s'agit d'une boîte de texte en forme libre qui sera transmise au comité du code de bonne conduite.</target>
+        <note from="Crowdin" priority="2">XPath: /p[19]</note>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Alternatively you can email the Code of Conduct Committee (code-of-conduct@bioconductor.org).</source>
+        <target state="translated">Vous pouvez également envoyer un courriel au Comité du Code de bonne conduite (code-of-conduct@bioconductor.org).</target>
+        <note from="Crowdin" priority="2">XPath: /p[19]</note>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>If you are uncomfortable reporting to the Code of Conduct committee as a group, you can contact any individual committee member via email or a direct message on the community-bioc Slack channel.</source>
+        <target state="translated">Si vous ne vous sentez pas à l'aise de contacter le comité du code de conduite en tant que groupe, vous pouvez contacter n'importe quel membre du comité par courriel ou un message direct sur l'espace de travail Slack &quot;community-bioc&quot;.</target>
+        <note from="Crowdin" priority="2">XPath: /p[19]</note>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Please include screenshots/copies of all relevant electronic conversations whenever possible (you don’t need to compromise your anonymity!).</source>
+        <target state="translated">Veuillez inclure des captures d'écran/copies de toutes les conversations électroniques pertinentes dans la mesure du possible (vous n'avez pas besoin de compromettre votre anonymat!).</target>
+        <note from="Crowdin" priority="2">XPath: /p[19]</note>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>We can’t follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.</source>
+        <target state="translated">Nous ne pouvons pas suivre un signalement anonyme avec vous directement, mais nous examinerons le signalement en profondeur et prendrons toutes les mesures nécessaires pour éviter une récidive.</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[20]</note>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Personal Report (for any Bioconductor events: in-person or virtual)</source>
+        <target state="translated">Signalement direct (pour tout événement Bioconductor: en personne ou virtuel)</target>
+        <note from="Crowdin" priority="2">Text&#13;
+XPath: /p[21]/em</note>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>You can make a personal report to any member of the event Code of Conduct committee present at an event.</source>
+        <target state="translated">Vous pouvez faire un signalement directement à tout membre du comité du Code de bonne conduite présents à un événement.</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[22]</note>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>When taking a personal report, we will ensure you are safe and cannot be overheard.</source>
+        <target state="translated">Lorsque nous prenons un rapport direct, nous nous assurerons que vous êtes en sécurité et que personne d'autre ne peut intercepter la conversation.</target>
+        <note from="Crowdin" priority="2">XPath: /p[23]</note>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>We may involve other event staff to ensure your report is managed properly.</source>
+        <target state="translated">Il se peut que nous fassions appel à un autre personnel de l’évènement pour nous assurer que votre rapport est géré correctement.</target>
+        <note from="Crowdin" priority="2">XPath: /p[23]</note>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>Once safe, we’ll ask you to tell us about what happened.</source>
+        <target state="translated">Une fois en sécurité, nous vous demanderons de nous faire part de ce qui s'est passé.</target>
+        <note from="Crowdin" priority="2">XPath: /p[23]</note>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>This can be upsetting, but we’ll handle it as respectfully as possible, and you can bring someone to support you.</source>
+        <target state="translated">Cela peut être bouleversant, mais nous traiterons toute information avec le plus grand respect possible, et vous pouvez vous accompagner de quelqu'un pour vous soutenir.</target>
+        <note from="Crowdin" priority="2">XPath: /p[23]</note>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>You won’t be asked to confront anyone, and we won’t tell anyone who you are.</source>
+        <target state="translated">On ne vous demandera pas de confronter qui que ce soit, et nous ne dirons à personne qui vous êtes.</target>
+        <note from="Crowdin" priority="2">XPath: /p[23]</note>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Our team will be happy to help you get the relevant support (e.g. help contacting hotel/venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the event).</source>
+        <target state="translated">Notre équipe se fera un devoir de vous aider à obtenir le soutien approprié (par exemple, aide à contacter la sécurité de l'hôtel/du lieu, les forces de l'ordre locales, les services de soutien locaux, escorte, ou tout support pour vous sentir en sécurité pendant la durée de l'événement).</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[24]</note>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>We value your attendance and participation at Bioconductor events and in our community.</source>
+        <target state="translated">Nous apprécions votre présence et votre participation aux événements Bioconductor et à notre communauté.</target>
+        <note from="Crowdin" priority="2">Paragraph text&#13;
+XPath: /p[25]</note>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>Code of Conduct Committee</source>
+        <target state="translated">Comité de bonne conduite</target>
+        <note from="Crowdin" priority="2">Headline 2&#13;
+XPath: /h2</note>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>(Chair) Saskia Freytag sas.freytag@gmail.com</source>
+        <target state="translated">(Chair) Saskia Freytag sas.freytag@gmail.com</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li</note>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>Yagoub Adam yagoub@alumni.usp.br</source>
+        <target state="translated">Yagoub Adam yagoub@alumni.usp.br</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[2]</note>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>Leonardo Collado-Torres lcolladotor@gmail.com</source>
+        <target state="translated">Leonardo Collado-Torres lcolladotor@gmail.com</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[3]</note>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>Aedín Culhane aedin@ds.dfci.harvard.edu</source>
+        <target state="translated">Aedín Culhane aedin@ds.dfci.harvard.edu</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[4]</note>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>Laurent Gatto laurent.gatto@gmail.com</source>
+        <target state="translated">Laurent Gatto laurent.gatto@gmail.com</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[5]</note>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>Stephanie Hicks shicks19@jhu.edu</source>
+        <target state="translated">Stephanie Hicks shicks19@jhu.edu</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[6]</note>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>Johannes Rainer johannes.rainer@eurac.edu</source>
+        <target state="translated">Johannes Rainer johannes.rainer@eurac.edu</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[7]</note>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>Matthew Ritchie mritchie@wehi.edu.au</source>
+        <target state="translated">Matthew Ritchie mritchie@wehi.edu.au</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[8]</note>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>Charlotte Soneson charlottesoneson@gmail.com</source>
+        <target state="translated">Charlotte Soneson charlottesoneson@gmail.com</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[9]</note>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>Levi Waldron lwaldron.research@gmail.com</source>
+        <target state="translated">Levi Waldron lwaldron.research@gmail.com</target>
+        <note from="Crowdin" priority="2">List Item&#13;
+XPath: /ul[6]/li[10]</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
