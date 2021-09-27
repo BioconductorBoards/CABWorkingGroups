@@ -1,0 +1,542 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-28 08:11+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.4.1\n"
+
+#: 1
+#, fuzzy
+msgid "/images/icons/magnifier.gif"
+msgstr "/images/icons/magnifier.gif"
+
+#: 3
+#, fuzzy
+msgid "Project-wide Code of Conduct statement for Bioconductor"
+msgstr "Código de Conduta para o Projeto Bioconductor"
+
+#: 5
+#, fuzzy
+msgid ""
+"(Adapted from the <a href=\"https://bioc2020.bioconductor.org/"
+"code_of_conduct\" f-id=\"1\" lbb=\"2\" fo=\"1\">BioC 2020 Code of "
+"Conduct</a>)"
+msgstr "(Adaptado do Código de Conduta BioC 2020)"
+
+#: 7
+#, fuzzy
+msgid "Code of Conduct"
+msgstr "Código de Conduta"
+
+#: 9
+#, fuzzy
+msgid "Version 1.0.1 (November 25, 2020)"
+msgstr "Versão 1.0.1 (25 de novembro 2020)"
+
+#: 11
+#, fuzzy
+msgid ""
+"Initial project-wide Code of Conduct, expanded from previous conference-"
+"specific documents"
+msgstr ""
+"Versão inicial do Código de Conduta para todo o projeto, expandido a partir "
+"de documentos específicos de conferência anteriores"
+
+#: 13
+#, fuzzy
+msgid "The Bioconductor community values"
+msgstr "Os valores da comunidade Biocondutor"
+
+#: 15
+#, fuzzy
+msgid ""
+"an open approach to science that promotes the sharing of ideas, code, and "
+"expertise"
+msgstr ""
+"uma abordagem aberta à ciência que promove o compartilhamento de ideias, "
+"códigos e conhecimentos"
+
+#: 17
+#, fuzzy
+msgid "collaboration"
+msgstr "colaboração"
+
+#: 19
+#, fuzzy
+msgid "diversity and inclusivity"
+msgstr "diversidade e inclusão"
+
+#: 21
+#, fuzzy
+msgid "a kind and welcoming environment"
+msgstr "um ambiente gentil e acolhedor"
+
+#: 23
+#, fuzzy
+msgid "community contributions"
+msgstr "contribuições da comunidade"
+
+#: 25
+#, fuzzy
+msgid ""
+"In line with these values, Bioconductor is dedicated to providing a "
+"welcoming, supportive, collegial, experience free of harassment, "
+"intimidation, and bullying regardless of:"
+msgstr ""
+"Em conformidade com estes valores, Bioconductor é dedicado a proporcionar "
+"uma experiência bem-vinda, solidária, colegial, livre de assédio, "
+"intimidação e intimidação independentemente de:"
+
+#: 27
+#, fuzzy
+msgid ""
+"identity: gender, gender identity and expression, sexual orientation, "
+"disability, physical appearance, ethnicity, body size, race, age, religion, "
+"etc."
+msgstr ""
+"identidade: gênero, identidade e expressão de gênero, orientação sexual, "
+"deficiência, aparência física, etnia, tamanho corporal, raça, idade, "
+"religião, etc."
+
+#: 29
+#, fuzzy
+msgid ""
+"intellectual position: approaches to data analysis, software preferences, "
+"coding style, scientific perspective, etc."
+msgstr ""
+"posição intelectual: abordagens à análise de dados, preferências de "
+"software, estilo de programação, perspectiva científica, etc."
+
+#: 31
+#, fuzzy
+msgid "stage of career"
+msgstr "estágio da carreira"
+
+#: 33
+#, fuzzy
+msgid ""
+"By participating in this community, you agree not to engage in behavior "
+"contrary to these values at any Bioconductor-sponsored event (in person or "
+"virtual, including but not limited to talks, workshops, poster sessions, "
+"social activities) or electronic communication channel (including but not "
+"limited to community-bioc Slack, the support site, online forums and social "
+"media communications)."
+msgstr ""
+"Ao participar desta comunidade, você concorda em não participar de um "
+"comportamento contrário a esses valores em qualquer evento patrocinado pelo "
+"Bioconductor (presencial ou virtual), incluindo mas não limitado a "
+"conversas, oficinas, sessões de pôsteres, atividades sociais) ou canais de "
+"comunicações eletrônicas (incluindo mas não limitados ao Slack, o site de "
+"suporte, fóruns online e comunicações de mídias sociais)."
+
+#: 35
+#, fuzzy
+msgid ""
+"We do not tolerate harassment, intimidation, or bullying of community "
+"members."
+msgstr ""
+"Não toleramos assédio, intimidação ou bullying de membros da comunidade."
+
+#: 37
+#, fuzzy
+msgid ""
+"Sexual language and imagery are not appropriate in presentations, "
+"communications or in online venues, including chats."
+msgstr ""
+"Linguagem e imagens sexuais não são apropriadas em apresentações, "
+"comunicações ou salas on-line, incluindo chats."
+
+#: 39
+#, fuzzy
+msgid ""
+"Any person/s violating the Code of Conduct may be sanctioned or expelled "
+"temporarily or permanently from an electronic platform or event at the "
+"discretion of the Code of Conduct committee."
+msgstr ""
+"Qualquer pessoa que viole o Código de Conduta pode ser sancionada ou expulsa "
+"temporária ou permanentemente de uma plataforma eletrônica ou de um evento a "
+"critério do Comité do Código de Conduta."
+
+#: 41
+#, fuzzy
+msgid ""
+"Examples of unacceptable harassment, intimidation, and bullying behavior."
+msgstr ""
+"Exemplos de comportamento inaceitável de assédio, intimidação e bullying."
+
+#: 43
+#, fuzzy
+msgid "Harassment includes, but is not limited to:"
+msgstr "O assédio inclui, mas não está limitado a:"
+
+#: 45
+#, fuzzy
+msgid ""
+"Making comments in chats, to an audience or personally, that belittle or "
+"demean another person"
+msgstr ""
+"Fazer comentários em chats, para um público ou pessoalmente, que menosprezem "
+"ou humilhem outra pessoa"
+
+#: 47
+#, fuzzy
+msgid "Sharing sexual images online"
+msgstr "Compartilhamento de imagens sexuais on-line"
+
+#: 49
+#, fuzzy
+msgid "Harassing photography or recording"
+msgstr "Assediar fotografia ou gravação"
+
+#: 51
+#, fuzzy
+msgid "Sustained disruption of talks or other events"
+msgstr "Interrupção sustentada de palestras ou outros eventos"
+
+#: 53
+#, fuzzy
+msgid "Unwelcome sexual attention"
+msgstr "Atenção sexual indesejada"
+
+#: 55
+#, fuzzy
+msgid "Advocating for, or encouraging, any of the above behavior"
+msgstr "Defendendo ou encorajando, qualquer um dos comportamentos acima"
+
+#: 57
+#, fuzzy
+msgid "Intimidation and bullying include, but are not limited to:"
+msgstr "Intimidação e bullying incluem, mas não estão limitados a:"
+
+#: 59
+#, fuzzy
+msgid "Aggressive or browbeating behavior"
+msgstr "Comportamento agressivo ou intimidador"
+
+#: 61
+#, fuzzy
+msgid ""
+"Mocking or insulting another person’s intellect, work, perspective, or "
+"question/comment"
+msgstr ""
+"Zombando ou insultando o intelecto, trabalho, perspectiva ou pergunta/"
+"comentário de outra pessoa"
+
+#: 63
+#, fuzzy
+msgid ""
+"Making reference to someone’s gender, gender identity and expression, sexual "
+"orientation, disability, physical appearance, body size, race, age, "
+"religion, or other personal attributes in the context of a scientific "
+"discussion"
+msgstr ""
+"Fazer referência ao gênero, identidade e expressão de gênero de alguém, "
+"orientação sexual, deficiência, aparência física, tamanho do corpo, raça, "
+"idade, religião ou outros atributos pessoais no contexto de uma discussão "
+"científica"
+
+#: 65
+#, fuzzy
+msgid "Deliberately making someone feel unwelcome"
+msgstr "Deliberadamente fazendo alguém se sentir indesejado"
+
+#: 67
+#, fuzzy
+msgid "Trolling behaviour (deliberately inflammatory of offensive messages)"
+msgstr ""
+"Comportamento de \"trolling\" (mensagens deliberadamente inflamatórias ou "
+"ofensivas)"
+
+#: 69
+#, fuzzy
+msgid "Sustained off-topic posts"
+msgstr "Envio constante de postagens fora do tópico"
+
+#: 71
+#, fuzzy
+msgid "Enforcement"
+msgstr "Execução"
+
+#: 73
+#, fuzzy
+msgid ""
+"Anyone asked to stop harassing or intimidating behavior are expected to "
+"comply immediately."
+msgstr ""
+"Espera-se que qualquer pessoa solicitada a interromper o comportamento de "
+"assédio ou intimidação cumpra imediatamente."
+
+#: 75
+#, fuzzy
+msgid ""
+"If a person/s contravene the Code of Conduct the Code of Conduct committee "
+"retains the right to take any action that ensures a welcoming environment "
+"for all community members."
+msgstr ""
+"Se uma pessoa/s violar o Código de Conduta, o Comitê do Código de Conduta "
+"reserva-se o direito de tomar qualquer ação que garanta um ambiente "
+"acolhedor para todos os membros da comunidade."
+
+#: 77
+#, fuzzy
+msgid ""
+"This includes warning the alleged offender or temporary/permanent expulsion "
+"from the event and/or electronic platforms under Bioconductor’s control."
+msgstr ""
+"Isto inclui avisar o suposto infrator ou a expulsão temporária/permanente do "
+"evento e/ou plataformas eletrônicas sob o controle do Bioconductor."
+
+#: 79
+#, fuzzy
+msgid ""
+"The Code of Conduct committee may take action to redress anything designed "
+"to, or with the clear impact of, disrupting an event or electronic "
+"communication platform or making the environment hostile for any community "
+"member."
+msgstr ""
+"O comitê de Código de Conduta pode tomar medidas para corrigir qualquer "
+"coisa concebida para, ou com um impacto claro, interromper uma plataforma de "
+"eventos ou comunicações eletrônicas ou tornar o ambiente hostil para "
+"qualquer membro da comunidade."
+
+#: 81
+#, fuzzy
+msgid ""
+"We expect everyone in the Bioconductor community to comply with the Code of "
+"Conduct when participating in Bioconductor events and online communication "
+"platforms."
+msgstr ""
+"Esperamos que todos os membros da comunidade Bioconductor cumpram o Código "
+"de Conduta quando participarem de eventos do Bioconductor e plataformas de "
+"comunicação on-line."
+
+#: 83
+#, fuzzy
+msgid "Reporting"
+msgstr "Reportando"
+
+#: 85
+#, fuzzy
+msgid ""
+"If someone makes you or anyone else feel unsafe or unwelcome, please report "
+"it as soon as possible."
+msgstr ""
+"Se alguém fizer você ou qualquer outra pessoa se sentir inseguro ou "
+"indesejado, por favor denuncie o mais rápido possível."
+
+#: 87
+#, fuzzy
+msgid "You can make a report either anonymously or personally."
+msgstr "Você pode fazer uma denúncia anonimamente ou pessoalmente."
+
+#: 89
+#, fuzzy
+msgid ""
+"All reports will be reviewed by the Code of Conduct Committee and will be "
+"kept confidential."
+msgstr ""
+"Todos as denúncias serão revistas pelo Comitê do Código de Conduta e serão "
+"mantidos em sigilo."
+
+#: 91
+#, fuzzy
+msgid "Electronically"
+msgstr "Electronicamente"
+
+#: 93
+#, fuzzy
+msgid ""
+"You can make an anonymous or non-anonymous report via the following link: <a "
+"href=\"https://tinyurl.com/bioccomplaint\" f-id=\"2\" fo=\"2\""
+">https://tinyurl.com/bioccomplaint</a>."
+msgstr ""
+"Você pode fazer uma denúncia anônima ou não anônima por meio do seguinte "
+"link: <a href=\"https://tinyurl.com/bioccomplaint\" f-id=\"2\" fo=\"2\""
+">https://tinyurl.com/bioccomplaint</a>."
+
+#: 95
+#, fuzzy
+msgid ""
+"It is a free-form text box that will be forwarded to the Code of Conduct "
+"Committee."
+msgstr ""
+"É uma caixa de texto de formato livre que será encaminhada ao Comitê do "
+"Código de Conduta."
+
+#: 97
+#, fuzzy
+msgid ""
+"Alternatively you can email the Code of Conduct Committee (code-of-"
+"conduct@bioconductor.org)."
+msgstr ""
+"Alternativamente, você pode enviar um e-mail para o Comitê do Código de "
+"Conduta (code-of-conduct@bioconductor.org)."
+
+#: 99
+#, fuzzy
+msgid ""
+"If you are uncomfortable reporting to the Code of Conduct committee as a "
+"group, you can contact any individual committee member via email or a direct "
+"message on the community-bioc Slack channel."
+msgstr ""
+"Se você estiver desconfortável reportando ao comitê de Código de Conduta "
+"como grupo, você pode entrar em contato com qualquer membro do comitê "
+"individualmente por e-mail ou uma mensagem direta no canal \"community-bioc\""
+" no Slack."
+
+#: 101
+#, fuzzy
+msgid ""
+"Please include screenshots/copies of all relevant electronic conversations "
+"whenever possible (you don’t need to compromise your anonymity!)."
+msgstr ""
+"Por favor, inclua capturas de tela /cópias de todas as conversas eletrônicas "
+"relevantes sempre que possível (você não precisa comprometer o seu "
+"anonimato!)."
+
+#: 103
+#, fuzzy
+msgid ""
+"We can’t follow up an anonymous report with you directly, but we will fully "
+"investigate it and take whatever action is necessary to prevent a recurrence."
+msgstr ""
+"Não podemos acompanhar um relatório anônimo com você, mas vamos investigá-la "
+"totalmente e tomar todas as medidas necessárias para evitar que se repita."
+
+#: 105
+#, fuzzy
+msgid "Personal Report (for any Bioconductor events: in-person or virtual)"
+msgstr ""
+"Relatório pessoal (para quaisquer eventos de Bioconductor: presencial ou "
+"virtual)"
+
+#: 107
+#, fuzzy
+msgid ""
+"You can make a personal report to any member of the event Code of Conduct "
+"committee present at an event."
+msgstr ""
+"Você pode fazer uma denúnica pessoal para qualquer membro do comitê do "
+"Código de Conduta do evento presente no evento."
+
+#: 109
+#, fuzzy
+msgid ""
+"When taking a personal report, we will ensure you are safe and cannot be "
+"overheard."
+msgstr ""
+"Ao fazer uma denúncia pessoal, garantimos que você está seguro e que não "
+"pode ser ouvido por acaso."
+
+#: 111
+#, fuzzy
+msgid ""
+"We may involve other event staff to ensure your report is managed properly."
+msgstr ""
+"Podemos envolver outros funcionários do evento para garantir que o sua "
+"denúncia seja gerenciada adequadamente."
+
+#: 113
+#, fuzzy
+msgid "Once safe, we’ll ask you to tell us about what happened."
+msgstr "Uma vez seguro, perguntaremos a você para nos dizer o que aconteceu."
+
+#: 115
+#, fuzzy
+msgid ""
+"This can be upsetting, but we’ll handle it as respectfully as possible, and "
+"you can bring someone to support you."
+msgstr ""
+"Isto pode ser perturbador, mas nós vamos lidar com isso da forma mais "
+"respeitosa possível, e você pode trazer alguém para apoiá-lo."
+
+#: 117
+#, fuzzy
+msgid ""
+"You won’t be asked to confront anyone, and we won’t tell anyone who you are."
+msgstr ""
+"Você não terá que confrontar ninguém e não diremos a ninguém quem você é."
+
+#: 119
+#, fuzzy
+msgid ""
+"Our team will be happy to help you get the relevant support (e.g. help "
+"contacting hotel/venue security, local law enforcement, local support "
+"services, provide escorts, or otherwise assist you to feel safe for the "
+"duration of the event)."
+msgstr ""
+"Nossa equipe ficará feliz em ajudá-lo a obter o suporte relevante (por "
+"exemplo, ajuda a contatar a segurança de hotel/evento, aplicação da lei "
+"local, serviços de suporte locais, fornecer escoltas ou de outra forma ajudá-"
+"lo a sentir-se seguro durante o evento)."
+
+#: 121
+#, fuzzy
+msgid ""
+"We value your attendance and participation at Bioconductor events and in our "
+"community."
+msgstr ""
+"Valorizamos sua presença e participação em eventos de Bioconductor e em "
+"nossa comunidade."
+
+#: 123
+#, fuzzy
+msgid "Code of Conduct Committee"
+msgstr "Comitê do Código de Conduta"
+
+#: 125
+#, fuzzy
+msgid "(Chair) Saskia Freytag sas.freytag@gmail.com"
+msgstr "(Chair) Saskia Freytag sas.freytag@gmail.com"
+
+#: 127
+#, fuzzy
+msgid "Yagoub Adam yagoub@alumni.usp.br"
+msgstr "Yagoub Adam yagoub@alumni.usp.br"
+
+#: 129
+#, fuzzy
+msgid "Leonardo Collado-Torres lcolladotor@gmail.com"
+msgstr "Leonardo Collado-Torres lcolladotor@gmail.com"
+
+#: 131
+#, fuzzy
+msgid "Aedín Culhane aedin@ds.dfci.harvard.edu"
+msgstr "Aedín Culhane aedin@ds.dfci.harvard.edu"
+
+#: 133
+#, fuzzy
+msgid "Laurent Gatto laurent.gatto@gmail.com"
+msgstr "Laurent Gatto laurent.gatto@gmail.com"
+
+#: 135
+#, fuzzy
+msgid "Stephanie Hicks shicks19@jhu.edu"
+msgstr "Stephanie Hicks shicks19@jhu.edu"
+
+#: 137
+#, fuzzy
+msgid "Johannes Rainer johannes.rainer@eurac.edu"
+msgstr "Johannes Rainer johannes.rainer@eurac.edu"
+
+#: 139
+#, fuzzy
+msgid "Matthew Ritchie mritchie@wehi.edu.au"
+msgstr "Matthew Ritchie mritchie@wehi.edu.au"
+
+#: 141
+#, fuzzy
+msgid "Charlotte Soneson charlottesoneson@gmail.com"
+msgstr "Charlotte Soneson charlottesoneson@gmail.com"
+
+#: 143
+#, fuzzy
+msgid "Levi Waldron lwaldron.research@gmail.com"
+msgstr "Levi Waldron lwaldron.research@gmail.com"
