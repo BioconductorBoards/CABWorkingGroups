@@ -24,7 +24,7 @@ body:
       label: Name
       description: Write a name of your event.
       placeholder: Tell us your event name!
-      value: ""
+      value: "event name"
     validations:
       required: true
   - type: textarea
@@ -51,7 +51,7 @@ body:
       label: Location
       description: Write a location of your event.
       placeholder: Tell us your event location!
-      value: ""
+      value: "event location"
     validations:
       required: true
   - type: textarea
@@ -60,7 +60,7 @@ body:
       label: Website
       description: Write a website of your event.
       placeholder: Tell us your event website!
-      value: ""
+      value: "https://eventwebsite.com"
     validations:
       required: true
   - type: textarea
@@ -69,14 +69,14 @@ body:
       label: Registration details (if applicable)
       description: Write registration details of your event (if applicable).
       placeholder: Tell us your event registration details! (if applicable).
-      value: ""
+      value: "Registration details"
   - type: textarea
     id: sponsor-organization
     attributes:
       label: Sponsor or Organization
       description: Sponsor or Organization
       placeholder: Let us know if there is a sponsor or organization
-      value: ""
+      value: "Sponsor or organization"
   - type: textarea
     id: startdatetime
     attributes:
