@@ -19,6 +19,24 @@ body:
         
         Thanks for taking the time to fill out this form!
   - type: textarea
+    id: event-name
+    attributes:
+      label: Name
+      description: Write a name of your event.
+      placeholder: Tell us your event name!
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: event-type
+    attributes:
+      label: Type
+      description: Write a type of your event.
+      placeholder: Tell us your event type!
+      value: "workshop, hack-a-thon, meetup, lecture, etc"
+    validations:
+      required: true
+  - type: textarea
     id: event-description
     attributes:
       label: Description
@@ -27,6 +45,38 @@ body:
       value: "It involves Bioconductor-centric workshops. It is organized by XXX."
     validations:
       required: true
+  - type: textarea
+    id: event-location
+    attributes:
+      label: Location
+      description: Write a location of your event.
+      placeholder: Tell us your event location!
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: event-website
+    attributes:
+      label: Website
+      description: Write a website of your event.
+      placeholder: Tell us your event website!
+      value: ""
+    validations:
+      required: true
+  - type: textarea
+    id: registration-details
+    attributes:
+      label: Registration details (if applicable)
+      description: Write registration details of your event (if applicable).
+      placeholder: Tell us your event registration details! (if applicable).
+      value: ""
+  - type: textarea
+    id: sponsor-organization
+    attributes:
+      label: Sponsor or Organization
+      description: Sponsor or Organization
+      placeholder: Let us know if there is a sponsor or organization
+      value: ""
   - type: textarea
     id: startdatetime
     attributes:
