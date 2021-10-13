@@ -1,6 +1,6 @@
 name: Request to add your event to Bioconductor event calendar
 description: File a event calendar request
-title: "[Event]: REPLACE ME WITH YOUR EVENT TITLE"
+title: "[Event]: REPLACE ME WITH YOUR EVENT NAME"
 labels: [event, calendar]
 assignees:
   - kozo2
@@ -18,15 +18,6 @@ body:
           4. The event organizer should summarise the CoC. (The event participants might not have time to read the CoC in a busy class, so it is good to take some time out.)
         
         Thanks for taking the time to fill out this form!
-  - type: textarea
-    id: event-name
-    attributes:
-      label: Name
-      description: Write a name of your event.
-      placeholder: Tell us your event name!
-      value: "event name"
-    validations:
-      required: true
   - type: textarea
     id: event-type
     attributes:
@@ -64,20 +55,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: registration-details
-    attributes:
-      label: Registration details (if applicable)
-      description: Write registration details of your event (if applicable).
-      placeholder: Tell us your event registration details! (if applicable).
-      value: "Registration details"
-  - type: textarea
-    id: sponsor-organization
-    attributes:
-      label: Sponsor or Organization
-      description: Sponsor or Organization
-      placeholder: Let us know if there is a sponsor or organization
-      value: "Sponsor or organization"
-  - type: textarea
     id: startdatetime
     attributes:
       label: Start date and time
@@ -103,7 +80,21 @@ body:
     attributes:
       label: Contact Details
       description: This field (email address) is not always required. Please write if you don't mind revealing your email address. If we need to contact you privately, we will contact you at the email address.
-      placeholder: ex. email@example.com
+      placeholder: ex. email@example.com      
+  - type: textarea
+    id: registration-details
+    attributes:
+      label: Registration details (if applicable)
+      description: Write registration details of your event (if applicable).
+      placeholder: Tell us your event registration details! (if applicable).
+      value: "Registration details"
+  - type: textarea
+    id: sponsor-organization
+    attributes:
+      label: Sponsor or Organization
+      description: Sponsor or Organization
+      placeholder: Let us know if there is a sponsor or organization
+      value: "Sponsor or organization"      
   - type: textarea
     id: comment
     attributes:
