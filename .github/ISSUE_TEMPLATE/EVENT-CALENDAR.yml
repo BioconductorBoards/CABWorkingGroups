@@ -33,7 +33,7 @@ body:
       label: Description
       description: Write a brief description of your event.
       placeholder: Tell us your event description!
-      value: "It involves Bioconductor-centric workshops. It is organized by XXX."
+      value: "It involves ..."
     validations:
       required: true
   - type: textarea
