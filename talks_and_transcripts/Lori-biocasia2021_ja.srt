@@ -951,9 +951,6 @@ Bioconductorから廃止予定とされることや除去されることを避�
 237
 00:22:10,240 --> 00:22:15,840
 Bioconductorは、データを安全な公共または機関のサーバーでホストすることを主張しています。
- 
-bioconductor insists data to be hosted on a 
-secure public or institutional server like
 
 238
 00:22:15,840 --> 00:22:23,920
@@ -1090,9 +1087,6 @@ from the core team
 270
 00:25:36,480 --> 00:25:42,080
 私たちは、それをよりシンプルで簡単にするために、機能強化と再構築に取り組んでいます。
- 
-enhancements and restructure to try to make it 
-simpler and easier to submit and maintain hub data
 
 271
 00:25:42,080 --> 00:25:48,160
@@ -1100,95 +1094,77 @@ simpler and easier to submit and maintain hub data
 
 272
 00:25:48,160 --> 00:25:53,760
-will evaluate the data and metadata provided 
-if needed assist with uploading data to the
+提供されたデータとメタデータを評価し、必要なら
 
 273
 00:25:53,760 --> 00:25:59,280
-bioconductor provided location again currently 
-that's an amazon s3 bucket but that could change
+Bioconductorが提供する場所へのデータのアップロードを支援しています。今のところその場所は Amazon の S3 バケットですが変わる可能性はあります。
 
 274
 00:26:00,160 --> 00:26:04,640
-and update the database for the metadata 
-provided so the metadata is available
+また提供されたメタデータのデータベースを更新し、クエリー関数を使ってメタデータを利用できるようにもしています。
 
 275
 00:26:04,640 --> 00:26:10,560
-through the query functions additionally 
-core team maintenance of the hubs includes
+さらなる Hub のコアチームによるメンテナンスには
 
 276
 00:26:10,560 --> 00:26:18,160
-managing server code on the amazon web service ec2 
-instances that hosts the website and api endpoints
+AmazonウェブサービスEC2インスタンスでのサーバーコードの管理が含まれます。それはウェブサイトや両方の Hub のAPIエンドポイントをホストするものです。
 
 277
 00:26:18,160 --> 00:26:24,880
-for both hubs and general core package maintenance 
-of the relevant core packages experiment hub
+また次に挙げる関連するコアパッケージの一般的なコアパッケージメンテナンスも含まれます。
 
 278
 00:26:24,880 --> 00:26:31,040
-annotation hub bioc file cache experiment 
-hub data annotation hub data and hubpub
+ExperimentHub、AnnotationHub、BiocFileCache、ExperimentHubData、AnnotationHubData そして HubPub といったものです。
 
 279
 00:26:32,880 --> 00:26:36,480
-so there are still other core related 
-tasks and infrastructure that we just
+他にもまだコアチームに関連するタスクとインフラがまだありますが、
 
 280
 00:26:36,480 --> 00:26:42,000
-haven't had time to touch on things like the 
-amazon web service resources that we utilize
+それらに触れる時間がありませんでした。私たちが利用しているAmazonウェブサービスのリソースですとか、
 
 281
 00:26:42,000 --> 00:26:48,480
-and the microsoft azure project resources 
-but hopefully this gave everyone an idea
+Microsoft の Azure プロジェクトのリソースといったようなものです。
 
 282
 00:26:48,480 --> 00:26:54,000
-of how much the core team supports in addition to 
-just general core package health and development
+ですが恐らくこのトークによって、一般的なコアパッケージのヘルプと開発に加えて、コアチームがどれだけ多くのことをサポートしているかをみなさんに概説できたと思います。
 
 283
 00:26:55,840 --> 00:27:00,240
-so with that i would like to thank the conference 
-organizers for inviting me to speak it really
+それでは、会議の主催者に私を招待してくれたことに感謝します。
 
 284
 00:27:00,240 --> 00:27:06,240
-has been an honor and thank you to my fellow core 
-team members i appreciate all the work and effort
+それはとても光栄なことです。また私の仲間のコアチームメンバーに感謝します。私はすべての仕事と努力に感謝します。
 
 285
 00:27:06,240 --> 00:27:11,280
-we all put into keeping the project moving 
-forward and most of all a thank you to the
+私たちが皆、プロジェクトを前進させ続けることに力を注いでいます。
 
 286
 00:27:11,280 --> 00:27:17,120
-bioconductor community bioconductor would not be 
-successful without the contributions of all of you
+そして、Bioconductor コミュニティのみなさんに心から感謝します。みなさんの貢献が無ければ Bioconductor の成功は無いでしょう。
 
 287
 00:27:17,120 --> 00:27:22,000
-and whether you're a first time user or a 
-long-time contributor we really hope that you
+そして初めてのユーザーであろうと、長年の貢献者であろうと、
 
 288
 00:27:22,000 --> 00:27:29,200
-found a welcoming and helpful community so please 
-feel free to send me any questions to my email
+あなたが Bioconductor を歓迎的で助けになるコミュニティだとを感じていただければ幸いです。それでは気軽に質問があれば送ってください。私のeメールか、
 
 289
 00:27:29,200 --> 00:27:47,840
-or on the community slack if anyone has any 
-questions about this presentation thank you cheers
+コミュニティの Slack に。 どなたでもどんな質問でもこのプレゼンテーションについてのものがあれば。気軽に送ってください。
 
 290
 00:28:59,760 --> 00:29:00,260
-you
+ありがとう みなさん !
 
