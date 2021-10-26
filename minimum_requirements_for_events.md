@@ -11,7 +11,7 @@ As of May 2021, "events" are assumed to be "virtual events" only.
 
 ## Host Checklist (BioC)
 
-- [ ] Ensure all participants have access to read and accept [the code of conduct](http://bioconductor.org/about/code-of-conduct/). Have a mechanism in place to report and address CoC issues.
+- [ ] Ensure all participants have access to read and accept [the code of conduct](http://bioconductor.org/about/code-of-conduct/). Have a mechanism in place to report and address CoC issues. Note that you are encouraged to provide a translation of the code of conduct into relevant languages to the conference as well as receive incident reports specified languages other than English. However, the English version of the code of conduct supersedes in case of dispute. 
 - [ ] Website for the event
 - [ ]  Promote diversity and inclusion, including ensure gender balance of invited speakers
 - [ ] Sharing of materials eg slides or recording video of the event and sharing the video using [the Bioconductor YouTube channel](https://www.youtube.com/user/bioconductor)
