@@ -201,13 +201,13 @@ Bioconductorはその代表者をバイオインフォマティクスソフト�
 具体的には毎年1週間にわたるメキシコとラテンアメリカの
 
 00:06:15.200 --> 00:06:19.520
-スペイン語でのカンファレンスやワークショップ(訳注: CDSB)ですとか 
+スペイン語でのカンファレンスやワークショップですとか 
 
 00:06:19.520 --> 00:06:28.160
 ワークショップやウェビナーのシリーズとして立ち上げられたH3ABioNetそしてH3Africaに代表者を送っています。
 
 00:06:28.160 --> 00:06:33.840
-(訳注: 後者は)アフリカの人がコーディングや研究を促進するのを助けるものです。
+アフリカの人がコーディングや研究を促進するのを助けるものです。
 
 00:06:34.640 --> 00:06:39.120
 これらはBioconductorが加わっている多くのワークショップやウェビナーそしてトレーニングの機会のほんの一部です。
@@ -273,7 +273,7 @@ Bioconductorコミュニティが成長し、私たちがワールドワイド�
 また、多くのコアチームメンバーがカンファレンスやワークショップの資料のプレゼンに参加しています。
 
 00:08:23.040 --> 00:08:28.080
-普通のカンファレンスのコンポーネントに関与している場合もあります。例えばワークショップをホストするための専用のウェブページシステムですとか
+普通のカンファレンスのコンポーネントに関与している場合もあります。例えばワークショップをホストするための専用のウェブページですとか
 
 00:08:28.080 --> 00:08:33.760
 参加者のためのコンピューター環境を用意するなどです。そんな具合にもコアチームは
@@ -285,712 +285,551 @@ Bioconductorコミュニティが成長し、私たちがワールドワイド�
 続いて、ユーザーと開発者の2つの視点からBioconductorについて考えていきたいと思います。 
 
 00:08:46.000 --> 00:08:50.160
-and along the way we'll discuss additional&nbsp;
-important project infrastructure that the
+これまでに私たちは付加的な重要なプロジェクトインフラについて議論してきました。
 
 00:08:50.160 --> 00:08:55.520
-core team helps develop maintain and enhance to&nbsp;
-try to provide a good experience to the community
+それはコアチームがコミュニティにいい体験を提供するために維持と強化の発展を支援しているものです。
 
 00:08:58.400 --> 00:09:02.960
-so thinking about a user how does a user&nbsp;
-interact with bioconductor traditionally
+それではユーザーがどのようにBioconductorとインタラクトするか考えてみましょう。
 
 00:09:02.960 --> 00:09:08.000
-i think most users were using our terminal&nbsp;
-or rstudio which is still highly popular and
+従来ほとんどのユーザーはターミナルやRStudioを使っていたかと思います。それらは依然としてとても人気があり
 
 00:09:08.000 --> 00:09:13.200
-widely utilized but there are also newer available&nbsp;
-technologies and projects like using docker images
+広く利用されていますが、より新しい利用可能なテクノロジーとプロジェクトがあります。たとえばDockerイメージですとか
 
 00:09:13.200 --> 00:09:17.360
-or cloud-based initiatives like the anvil&nbsp;
-project that allow a different user experience
+クラウドベースの新たな取り組みです。AnVILプロジェクトはターミナルやRStudioとは異なるユーザーエクスペリエンスを実現するものです。 
 
 00:09:17.920 --> 00:09:23.040
-for our terminal and rstudio users there's a&nbsp;
-cram package bioc manager that is downloaded
+ターミナルやRStudioのユーザー用にはCRANパッケージのBiocManagerがあります。
 
 00:09:23.040 --> 00:09:28.640
-installed from cran and provides access to all&nbsp;
-packages in bioconductor and crayon repositories
+それはCRANからインストールできすべてのBioconductorとCRANパッケージへのアクセスを提供します。
 
 00:09:28.640 --> 00:09:35.600
-the anvil which stands for analysis visualization&nbsp;
-and informative lab space is an nhgri project
+Analysis Visualization and Informative Lab-spaceの略であるAnVILはNHGRI(訳注: 米国国立ヒトゲノム研究所)のプロジェクトです。
 
 00:09:35.600 --> 00:09:40.320
-it provides a secure cloud-based computing&nbsp;
-environment for analysis i will not go into
+それは分析用の安全なクラウドベースのコンピューティング環境を提供します。
 
 00:09:40.320 --> 00:09:45.440
-detail here about anvil and docker images but i&nbsp;
-encourage everyone to attend natashas talk where
+ここではAnVILとDockerイメージについて詳しくは説明しませんが、みなさんには次のNiteshのトークに参加されることをお勧めします。
 
 00:09:45.440 --> 00:09:49.920
-i believe some of these concepts and resources&nbsp;
-will be covered i will mention that the anvil
+そこではAnVILのコンセプトやリソースがカバーされていると思います。私の方ではAnVILについて次のことだけ述べます。
 
 00:09:49.920 --> 00:09:53.920
-bioconductor package provides a different&nbsp;
-install function designed specifically for
+それはAnVILのBioconductorパッケージは異なるインストール機能をもたらすということです。 
 
 00:09:53.920 --> 00:10:00.000
-use with the bioconductor docker images and the&nbsp;
-anvil computing space that can provide fast binary
+それは Bioconductor の Docker イメージと AnVIL の計算環境で使うことに特化してデザインされています。AnVILの計算環境は 
 
 00:10:00.000 --> 00:10:05.680
-package installation why is this significant well&nbsp;
-some packages require compilation which can take
+それは高速なバイナリパッケージのインストール方法を実現しています。なぜこれが重要かというといくつかのパッケージはコンパイルを必要とするからです。
 
 00:10:05.680 --> 00:10:11.760
-several seconds package binaries are pre-compiled&nbsp;
-allowing for a near instantaneous installation the
+コンパイルには時間がかかりますが、バイナリパッケージはコンパイル済みなのでほぼ一瞬でインストールできるようになります。
 
 00:10:11.760 --> 00:10:16.640
-limitation of binaries is that package binaries&nbsp;
-are specific to the system configuration to which
+ただバイナリパッケージの制約はそのシステム構成に特化されているということです。
 
 00:10:16.640 --> 00:10:19.840
-they were generated which is why they're&nbsp;
-only available for use with the docker
+それはバイナリパッケージが作られた環境でしか動きません。そんなわけでバイナリパッケージはDockerを用いた環境でしか利用できません。
 
 00:10:23.600 --> 00:10:29.280
-another important concept for users especially&nbsp;
-new users is how to find packages of interest
+ユーザー、特に新規ユーザーにとってのもう1つの重要な概念は、関心のあるパッケージを見つける方法です。
 
 00:10:29.280 --> 00:10:34.000
-in bios manager there's a function available&nbsp;
-that shows a listing of all available packages
+BiocManagerには、利用可能なすべてのパッケージのリストを表示する機能があります。
 
 00:10:34.000 --> 00:10:39.680
-or you could use a search term to find packages&nbsp;
-but that assumes some a priori knowledge the
+または、検索語を使用してパッケージを見つけることもできます。ですがそれは事前知識を想定しています。
 
 00:10:39.680 --> 00:10:44.800
-bioc views page and package landing pages&nbsp;
-can be really useful for finding packages
+biocViews ページとパッケージライディングページは、パッケージを見つけるのに非常に役立ちます。
 
 00:10:45.520 --> 00:10:50.640
-off the bioconductor.org home page there's&nbsp;
-a link to available software packages
+bioconductor.org ホームページから離れます。利用可能なソフトウェアパッケージへのリンクがあります。
 
 00:10:50.640 --> 00:10:56.400
-this takes you to what we call our bioseed views&nbsp;
-page and includes software annotation experiment
+このリンクは私たちが「biocViews」と呼んでいるページへあなたを連れていきます。そしてそれは「software」「annotation」「experiment」
 
 00:10:56.400 --> 00:11:01.920
-and workflow packages books are coming soon&nbsp;
-you can either search for terms of interest
+加えて「workflow」さらには近日登場予定の「books」パッケージを含んでいます。興味のある用語でもパッケージを検索できます。
 
 00:11:01.920 --> 00:11:07.600
-like single cell or proteomics to get a list&nbsp;
-of packages or if you know a package name
+例えば single cell や proteomics といったものでパッケージのリストを取得できます。またもしあなたがパッケージ名を知っているなら
 
 00:11:07.600 --> 00:11:11.920
-you can search for it specifically like&nbsp;
-genomic ranges or summarized experiment
+それを明確に検索できます。例えば「GenomicRanges」や「SummarizedExperiment」といったように。
 
 00:11:12.720 --> 00:11:18.240
-the rank ordering is in order of most downloaded&nbsp;
-to lease downloaded and if you click on a package
+「Rank」の順は最もダウンロードされたものからわずかにしかダウンロードされていないものへの順になっています。パッケージ名をクリックすると
 
 00:11:18.240 --> 00:11:23.840
-name it takes you to a bioconductor's package&nbsp;
-landing page the page has badges to indicate
+Bioconductorのパッケージランディングページへ導かれます。そのページはパッケージの健全性などを示すバッジを持っています。
 
 00:11:23.840 --> 00:11:30.320
-package health and information on the package&nbsp;
-like the description documentation what package
+またパッケージについての情報も持っています。例えば説明、ドキュメンテーション、
 
 00:11:30.320 --> 00:11:35.920
-dependencies or reverse dependencies there are&nbsp;
-and in the bottom a link to download the package
+パッケージ依存、または逆依存といったものです。また最後尾にはBiocManagerを使わずにパッケージを直接ダウンロードするためのリンクと
 
 00:11:35.920 --> 00:11:43.040
-directly instead of through bioc manager access to&nbsp;
-the code base in git.bioconductor.org and package
+git.bioconductor.org 中のコードベース、そしてパッケージダウンロード統計にアクセスするためのリンクがあります。
 
 00:11:43.040 --> 00:11:49.120
-download statistics probably the most helpful on&nbsp;
-this page is the package documentation that a user
+このページでおそらくもっとも有用なのはパッケージのドキュメンテーションです。
 
 00:11:49.120 --> 00:11:55.840
-can browse through before downloading a package to&nbsp;
-see if it's appropriate for their type of analysis
+それはユーザーがパッケージをダウンロードする前にざっと目を通し、そのパッケージがユーザーの解析のタイプに合っているかを確認できるようになっています。
 
 00:11:56.480 --> 00:12:00.240
-so before switching to a developer's&nbsp;
-point of view let's revisit the core team
+それでは開発者の視点にスイッチする前に、
 
 00:12:00.240 --> 00:12:04.720
-and in these few concepts for users what sort&nbsp;
-of infrastructure is required in the background
+コアチームと、ユーザーにとってどんな類のインフラがバックグラウンドで必要とされるかを再検討してみましょう。
 
 00:12:05.280 --> 00:12:10.800
-so there's obviously some package maintenance&nbsp;
-with regard to bioc manager anvil anvil specific
+そこには明らかにいくつかのパッケージメンテナンス作業があります。 BiocManager に関するもの、AnVIL 固有のもの、
 
 00:12:10.800 --> 00:12:17.040
-packages and bioseat views packages there's a&nbsp;
-concept of a daily build of all bioconductor
+biocViewsのパッケージに関するものといったようにです。packages and bioseat views packages すべてのBioconductorパッケージにはデイリービルドの概念があります。
 
 00:12:17.040 --> 00:12:22.880
-packages so that they're available through the&nbsp;
-bioc manager install function there's generation
+そのためパッケージはBiocManager::install関数で利用できるようになっているのです。
 
 00:12:22.880 --> 00:12:28.400
-and upkeep of docker images so bioconductor docker&nbsp;
-images for both release and develop branches
+Docker イメージの生成と維持もあります。 Bioconductor のDocker イメージは release と develop ブランチの両方のものがあり、 
 
 00:12:28.400 --> 00:12:32.560
-and an anvil specific docker image that&nbsp;
-needs to be submitted to the anvil platform
+さらには AnVIL プラットフォームに提出する必要がある AnVIL 固有の Docker イメージがあります。
 
 00:12:33.600 --> 00:12:38.320
-there's also the binary package generation&nbsp;
-for those provide packages provided through
+また AnVIL::install を使って提供されるパッケージのバイナリパッケージ生成もあります。
 
 00:12:38.320 --> 00:12:42.880
-anvil install and then there's the website&nbsp;
-code and website interaction so that you
+その上ウェブサイトのコードとウェブサイトのインタラクションもあります。
 
 00:12:42.880 --> 00:12:48.160
-could see that biosea views page and package&nbsp;
-landing pages and the constant regeneration
+それによってあなたは biocViews のパージとパッケージランディングページを見ることができているわけです。
 
 00:12:48.160 --> 00:12:52.560
-of the website to make sure that all that&nbsp;
-information stays up to date to the latest
+また定期的なウェブサイトの再生成は、その情報を時代遅れにせず最新状態で居続けることを確かにしています。
 
 00:12:53.440 --> 00:12:57.440
-and then at the bottom of the packing landing&nbsp;
-pages i mentioned it briefly but there's package
+また、パッケージのランディングページの最後尾で簡単に説明しましたが、
 
 00:12:57.440 --> 00:13:02.960
-download statistics that get calculated for each&nbsp;
-package as well so again hopefully that you can
+パッケージごとに算出されるダウンロード統計もあります。繰り返しになりますが
 
 00:13:02.960 --> 00:13:08.080
-see while it may seem like trivial and basic&nbsp;
-functionality that there's a lot that needs to
+些細で基本的な機能に見える一方で
 
 00:13:08.080 --> 00:13:12.320
-be in place behind the scenes for everything&nbsp;
-to function properly and interact properly
+すべてが適切に機能し適切にインタラクトするには、舞台裏で行う必要のあることが大量にあることがお分かりになるかと思います。
 
 00:13:15.040 --> 00:13:19.680
-so the core team has a subset of packages&nbsp;
-that are considered core packages and core
+コアチームはあるパッケージのサブセットを持っています。それは「コアパッケージ」と考えられ、
 
 00:13:19.680 --> 00:13:24.320
-team maintained but most of the packages&nbsp;
-in bioconductor are community contributed
+「コアチームによってメンテされている」ものです。ですがBioconductorのほとんどのパッケージはコミュニティの貢献によるものです。
 
 00:13:24.880 --> 00:13:29.200
-anyone from the community is welcome to&nbsp;
-develop and submit a package to bioconductor
+コミュニティの誰もが Bioconductor パッケージを開発して提出することを歓迎します。
 
 00:13:29.200 --> 00:13:33.520
-there are certain specific package requirements&nbsp;
-that should be implemented when developing
+開発時に実装する必要がある特定のパッケージ要件があり、パッケージはレビュープロセスを受けます。
+パッケージを開発する場合いくらかの必要条件があります。
 
 00:13:33.520 --> 00:13:37.840
-and a package will undergo a review&nbsp;
-process once a package is accepted
+そしてパッケージはレビュープロセスに経ます。一旦パッケージがアクセプトされると、
 
 00:13:37.840 --> 00:13:42.320
-then it's added to the daily builder and&nbsp;
-available through bioc manager install
+それはデイリービルダーに追加され、BiocManagerを使ってインストールできるようになります。
 
 00:13:44.720 --> 00:13:50.160
-so package specific requirements can be&nbsp;
-found at contributions.bioconnector.org
+パッケージの必要条件は contributions.bioconnector.org で見つけることができます。
 
 00:13:50.160 --> 00:13:55.120
-and the developer section of the main website&nbsp;
-we are in the process of moving information
+また メインウェブサイトの developer セクションでも見つけることができます。
 
 00:13:55.120 --> 00:14:00.480
-from the developer section of the website to&nbsp;
-the contributions.bioconductor.org location
+現在 そのウェブサイトの developer セクションから contributions.bioconductor.org に情報を動かしている最中です。
 
 00:14:00.480 --> 00:14:03.440
-so eventually all the information&nbsp;
-will be in one location
+ですので最終的にすべての情報は1カ所にあるようになります。
 
 00:14:04.400 --> 00:14:09.200
-but let's go over some of the key concepts that&nbsp;
-should be implemented when developing a package
+パッケージを開発する時に実装する義務があるいくつかのキーコンセプトを見直してみましょう。
 
 00:14:10.000 --> 00:14:15.520
-one of the main things is reusing or extending&nbsp;
-existing classes and using the well-developed
+重要なことの1つは再利用もしくは既存クラスの拡張そして
 
 00:14:15.520 --> 00:14:21.280
-import and export methods for certain data types&nbsp;
-bioconductor has the concept of interoperability
+特定のデータタイプ用のimportとexportのメソッドがよく開発されているものを使うことです。Bioconductor は相互運用性の概念を持っており、
 
 00:14:21.280 --> 00:14:26.640
-so if a user wants to use one package to import a&nbsp;
-different normalize and a third to visualize the
+そのためあるユーザーが1つのパッケージを使い、異なるパッケージでノーマライズを行い、3つ目で可視化を行いたい場合、
 
 00:14:26.640 --> 00:14:32.800
-manipulation of data from one package to the next&nbsp;
-should be minimal if not eliminated completely for
+1つのパッケージから次のパッケージへのデータの操作は、もし完全に排除されていないなら最小限に留めるべきです。
 
 00:14:32.800 --> 00:14:38.800
-the user so ideally the output of one should&nbsp;
-be the input to another this is why we like to
+理想的には一方のパッケージの出力がもう一方のパッケージへの入力であるべきです。
 
 00:14:38.800 --> 00:14:45.200
-emphasize using or extending any of the existing&nbsp;
-class structures another good practice worth
+これが、私たちが既存のクラス構造の使用または拡張を強調したい理由です。
 
 00:14:45.200 --> 00:14:51.200
-mentioning is the caching of web-based data when&nbsp;
-possible this way if a user is without internet or
+言及する価値がある別のグッドプラクティスは、可能ならウェブベースデータのキャッシュを作ることです。これはあるユーザーがインターネットが使えない、もしくは
 
 00:14:51.200 --> 00:14:57.600
-requests the same file from a website or a website&nbsp;
-is temporary unavailable they don't have to
+あるウェブサイトから同じファイルにリクエストする、もしくはウェブサイトが一時的に利用できない場合に
 
 00:14:57.600 --> 00:15:03.120
-re-download and could potentially use a previously&nbsp;
-downloaded version instead of having to wait for
+再ダウンロードの必要が無く、前にダウンロードしたバージョンを
 
 00:15:03.120 --> 00:15:09.760
-the internet or re-download data another good&nbsp;
-practice is implementing unit tests it's strongly
+インターネットの復帰やデータの再ダウンロードを待つことなく使えるようにする可能性を秘めています。さらに別のグッドプラクティスはユニットテストの実装です。
 
 00:15:09.760 --> 00:15:15.120
-recommended while tests can seem burdensome&nbsp;
-if added to the development process early it
+テストは面倒に思えるかもしれませんがそれを強くお勧めします。もしテストを開発プロセスに早めに追加すると
 
 00:15:15.120 --> 00:15:20.800
-can actually aid in development so testing for&nbsp;
-things like edge cases and having both positive
+それは意外と開発に役立ち得ます。そんなわけでエッジケースなどをテストしたり
 
 00:15:20.800 --> 00:15:27.360
-and negative tests can ensure proper proper&nbsp;
-functionality biggest thing that bioconductor
+ポジ・ネガの両方のテストをしたりすると正常な機能を確保できます。
 
 00:15:27.360 --> 00:15:32.720
-is also going to insist upon is a really&nbsp;
-detailed vignette with runnable code examples
+加えてBioconductorが要求する大きなことは、実行可能な例を伴う実に詳細な vignette です。
 
 00:15:32.720 --> 00:15:38.320
-so vignettes are compiled when built so it can&nbsp;
-also help ensure proper functioning code but we
+vignette はパッケージがビルドされる時にコンパイルされます。そのため、 vignette はコードが適切に機能するかを保証するのにも役立ちます。
 
 00:15:38.320 --> 00:15:44.240
-like detailed vignettes because ideally this gives&nbsp;
-your users an understanding of the package and
+理想的には vignette がユーザーにそのパッケージとその固有の機能の理解を与えてくれるので、私たちは詳細な vignette を好みます。
 
 00:15:44.240 --> 00:15:49.280
-the unique functionality that the package provides&nbsp;
-and these are just a few concepts of the many that
+これらはあなたが contributions.bioconductor.org ページで見つけるであろう多くのコンセプトの内のほんの一部にすぎません。
 
 00:15:49.280 --> 00:15:56.320
-you'll find on this contributions.bioconductor.org&nbsp;
-page so once a package is developed a user then
+ひとまずパッケージが開発されるとユーザーは
 
 00:15:56.320 --> 00:16:01.680
-submits to the bioconductor new submission tracker&nbsp;
-on github there's some useful information on the
+GitHub上のBioconductorの新投稿トラッカーにそれを投稿します。そのホームページにはいくつかの有用な情報があります。
 
 00:16:01.680 --> 00:16:06.160
-home page about what to expect and how&nbsp;
-to submit related or dependent packages
+それは何を期待するか、ですとか どのように関連するもしくは依存するパッケージをどのように投稿するか、といったものです。
 
 00:16:06.160 --> 00:16:12.240
-but to submit a new issue you go to open a new&nbsp;
-issue under bioconductor contributions the title
+新しいイシューを投稿するには、 Bioconductor/Contributions 下で「New issue」開くように移動してください。
 
 00:16:12.240 --> 00:16:18.480
-should be your package name all packages currently&nbsp;
-require a github repository location and the link
+そのタイトルはあなたのパッケージ名である必要があります。すべてのパッケージは今のところGitHubのリポジトリの配置が必要です。
 
 00:16:18.480 --> 00:16:23.840
-should be updated pointing to this location a&nbsp;
-package then is an awaiting moderation stage
+そしてその場を指しつつリンク先のリポジトリが更新される必要があります。そしてパッケージがモデレーション段階待ちになります。
 
 00:16:24.400 --> 00:16:29.760
-a reviewer will be assigned and the package&nbsp;
-added to our get.bioconductor.org location
+そしてレビュアーがアサインされ、そのパッケージは私たちの git.bioconductor.org の場所に追加されます。
 
 00:16:29.760 --> 00:16:36.560
-and a build triggered on all three major os&nbsp;
-platforms linux mac and windows once a package
+そして3つのメジャーOSプラットフォーム Linux Mac Windows すべてでビルドがトリガーされます。
 
 00:16:36.560 --> 00:16:41.360
-is building and checking without error the&nbsp;
-reviewer will do an in-depth review of the package
+一度パッケージが "ERROR" が無くビルド・チェックされたら、レビュアーはそのパッケージのより詳しいレビューを行います。
 
 00:16:41.360 --> 00:16:46.560
-and offer comments suggestions or request changes&nbsp;
-consistent with bioconductor package requirements
+そして Bioconductor パッケージの必要条件と一致するようにコメントや提案、また変更リクエストを提示します。
 
 00:16:47.200 --> 00:16:51.760
-there's an open dialogue in the review process&nbsp;
-open to the community and governed by the
+レビュープロセスはコミュニティに開かれており、そこではオープンな意見交換があります。
 
 00:16:51.760 --> 00:16:57.760
-bioconductor code of conduct once a package is&nbsp;
-accepted it's added to the nightly daily builder
+またそれは Bioconductor の行動規範によって統治されています。一旦パッケージがアクセプトされるとそれはナイトリーデイリービルダーに追加されます。
 
 00:16:59.920 --> 00:17:06.320
-bioconductor uses get for version control of&nbsp;
-package source code bioconductor builds only from
+Bioconductor はパッケージのソースコードのバージョン管理に git を使います。
 
 00:17:06.320 --> 00:17:11.600
-get.bioconductor.org and users must push&nbsp;
-changes to this location to propagate
+Bioconductor は git.bioconductor.org からのみビルドされます。そしてユーザーはこの場所に変更をプッシュしそれをパッケージユーザーに伝播させる必要があります。
 
 00:17:11.600 --> 00:17:18.480
-them to users from a few times a week to daily&nbsp;
-the bioconductor builders will do a get clone
+週に数回から毎日程度の頻度で Bioconductor のビルダーはパッケージのあるバージョンを git clone を実行し
 
 00:17:18.480 --> 00:17:23.680
-a version of the package and then do an r&nbsp;
-command install r command build and r command
+その後R CMD INSTALL、R CMD build、そしと R CMD check を実行します。
 
 00:17:23.680 --> 00:17:30.320
-check if the package installs builds and checks&nbsp;
-cleanly and has a valid version bump for changes
+もしパッケージのinstall、build、checkがきちんと進み、変更に対する有効なバージョンアップがされていれば、
 
 00:17:30.320 --> 00:17:34.880
-the package is propagated and becomes available&nbsp;
-through the bioc manager install function
+そのパッケージは伝播し、BiocManager::install 関数を使って利用できるようになります。
 
 00:17:35.600 --> 00:17:39.760
-maintainers can find the build reports from&nbsp;
-the main website in the lower right corner
+パッケージのメンテナーは、メインWebサイトの右下隅にマークされた「Build reports」からビルドレポートを得ることができます。
 
 00:17:39.760 --> 00:17:44.320
-marked build reports this page indicates&nbsp;
-how frequently the builds take place
+このページはそのビルドがどの程度の頻度で行われるかを表示します。
 
 00:17:45.120 --> 00:17:51.120
-if we click on browse for any of the build reports&nbsp;
-you'll get a list of every bioconductor package
+ビルドレポートのいずれかをクリックすると、全 Bioconductor パッケージと
 
 00:17:51.120 --> 00:17:56.320
-and the status through each stage the top of&nbsp;
-the page has a time stamp to indicate when it
+各ステージに至るまでのステータスのリストが表示されます。
+ページのトップにはそれがいつ生成されたかを示すタイムスタンプがあり、
 
 00:17:56.320 --> 00:18:02.400
-was generated and each package has information&nbsp;
-on the version git commit and get date that the
+それぞれのパッケージは Git のコミットのバージョンとビルダーがそのレポートのために使われた日付の情報を持っています。
 
 00:18:02.400 --> 00:18:08.080
-builder used for that report you can click on any&nbsp;
-stage indicator for more information and results
+何らかのステージのインジケーターをクリックしてより多くの情報と結果を見ることができます。
 
 00:18:09.840 --> 00:18:14.160
-so what infrastructure is needed for&nbsp;
-everything just discussed for submitting
+それではパッケージを投稿するために今説明したすべてのものに必要なインフラストラクチャは何でしょうか?
 
 00:18:14.160 --> 00:18:19.040
-a package well there's evaluating and&nbsp;
-updating of the package guidelines
+パッケージガイドラインの評価と更新があるでしょう。
 
 00:18:19.680 --> 00:18:23.840
-there's the code that interacts with&nbsp;
-the package submission process on github
+また GitHub でのパッケージ投稿プロセスとインタラクトするコードもあるでしょう。
 
 00:18:23.840 --> 00:18:28.000
-and code specific to the new submission&nbsp;
-process on each of the three develop builders
+そして3つの開発ビルダーのそれぞれの新投稿プロセスに固有のコードもあるでしょう。
 
 00:18:28.960 --> 00:18:32.960
-the core team also participates currently&nbsp;
-in package reviews for new submissions
+コアチームは現在新しい投稿に対するパッケージレビューにも参加しています。
 
 00:18:34.480 --> 00:18:38.400
-there is facilitating the entire&nbsp;
-bioconductor get ecosystem
+Bioconductor の Git のエコシステム全体の促進もあります。
 
 00:18:38.400 --> 00:18:44.080
-which includes the get.bioconductor.org&nbsp;
-main repository location for all of the
+それは git.bioconductor.org や、すべての Bioconductor パッケージのメインのリポジトリの場所を含みます。
 
 00:18:44.080 --> 00:18:50.240
-bioconductor packages a git contributions&nbsp;
-app that manages ssh credentials of users
+GitContributions アプリはユーザーの ssh 証明書を管理するものです。
 
 00:18:51.120 --> 00:18:57.280
-get a light application that manages which users&nbsp;
-have access to which packages and gut hooks that
+Gitolite はどのユーザーがどのパッケージにアクセスできるようにするかを管理するアプリです。
 
 00:18:57.280 --> 00:19:03.600
-respond to different triggering events there's&nbsp;
-also the bioconductor build system called the bbs
+Git hooks は様々なトリガーイベントに反応するものです。また
+BBS と呼ばれる Bioconductor Build System もあります。
 
 00:19:03.600 --> 00:19:08.560
-which is a large undertaking of the core team&nbsp;
-there are minimally six build machines that
+それはコアチームの一大仕事です。
+そこでは最小限に6つのビルドマシンがあり、
 
 00:19:08.560 --> 00:19:14.640
-require system administration and the underlying&nbsp;
-code base on each to handle the get clone the r
+それはシステム管理と次のそれぞれをハンドルするための基本的なコードベースを必要とします。
 
 00:19:14.640 --> 00:19:20.000
-command install the r command build the r command&nbsp;
-check the package propagation and the generation
+git clone、R CMD install、R CMD build、R CMD check、パッケージを伝播させること、そして
 
 00:19:20.000 --> 00:19:25.920
-of the build reports and there's minimally six&nbsp;
-builders because for both the bioconductor release
+ビルドレポートの生成です。そして最小限でも6つビルダーがある理由は
 
 00:19:25.920 --> 00:19:32.560
-and bioconductor devel branches we cover the&nbsp;
-three main os platforms of mac linux and windows
+Bioconductor の release と devel ブランチの両方用に、私たちは3つのOSプラットフォーム Mac、Linux そして Windowsをカバーしているからです。
 
 00:19:35.280 --> 00:19:40.480
-so briefly i wanted to also touch upon why&nbsp;
-bioconductor has a release in a devel branch
+簡単に、Bioconductor に release と devel ブランチがある理由についても触れたいと思います。
 
 00:19:40.480 --> 00:19:47.040
-bioconductor is closely associated with r most&nbsp;
-years in spring r has a release bioconductor
+Bioconductor は R と密接に関連しています。
+ほとんどの年の春に、R はリリースされます。
 
 00:19:47.040 --> 00:19:51.200
-then needs to update which version of&nbsp;
-r is being used for packages to insured
+その R のリリースの次に Bioconductor は更新する必要があります。どのバージョンのRがパッケージで継続して適切に機能するのを保証するためにです。
 
 00:19:51.200 --> 00:19:56.960
-continued proper functionality bioconductor&nbsp;
-has two releases of gear a spring and a fall
+Bioconductorには、春と秋 年に2つのリリースがあります。
 
 00:19:57.600 --> 00:20:05.200
-where the devel branch is released and becomes the&nbsp;
-new release from roughly late april and early may
+そこでは devel ブランチが「リリースされて」次の新しい release ブランチになります。ざっくりと4月末から5月始めにかけて
 
 00:20:05.200 --> 00:20:10.480
-when the new version of r is released both the&nbsp;
-bioconductor release and devel branch use that
+新しいRのバージョンがリリースされるので、その Bioconductor の release と devel ブランチ両方は
 
 00:20:10.480 --> 00:20:17.200
-stapled release version of r or our patched&nbsp;
-version in fall normally late october early
+R の安定したバージョンもしくはパッチがあてられたバージョンを使うことになります。秋、通常は10月末か11月始めに
 
 00:20:17.200 --> 00:20:22.960
-november bioconductor does a second release&nbsp;
-at this time the bioconductor release branch
+Bioconductorは2番目のリリースを行います。
+今のところ、その Bioconductor の release ブランチは
 
 00:20:22.960 --> 00:20:29.440
-still uses that stable rr patch version but the&nbsp;
-devel bioconductor branch switches to use r devel
+引き続き安定した R と R のパッチがあたったバージョンを使います。 ですがその devel ブランチは R の devel バージョンを使うようにしています。
 
 00:20:29.440 --> 00:20:35.200
-in preparation for the next r release in spring&nbsp;
-having a devel branch allows maintainers to
+次の春の R のリリースに備えるためです。devel ブランチを使用すると、メンテナーは
 
 00:20:35.200 --> 00:20:41.440
-adapt to changes in base r as well as changes in&nbsp;
-any other dependent packages that they may have
+base-r の変更だけでなく、被ることになるであろう他の依存パッケージの変更にも適応できるようになります。
 
 00:20:41.440 --> 00:20:46.560
-and then have minimal disruption or&nbsp;
-downtime to the end user bioconductor
+そしてエンドユーザーへの混乱やダウンタイムを最小限に抑えることができます。
 
 00:20:46.560 --> 00:20:51.360
-encourage package maintainers to enhance and&nbsp;
-make major changes on the development branch
+Bioconductor は、パッケージメンテナが開発ブランチで大きな変更を加えて、
 
 00:20:51.360 --> 00:20:56.640
-and restrict changes on the release branch&nbsp;
-to minor bug corrections again also reasoning
+リリースブランチでの変更をマイナーなバグ修正に限定することを奨励しています。
 
 00:20:56.640 --> 00:21:01.840
-that there would be a place for development and&nbsp;
-potential breakage without affecting the end users
+繰り返しになりますが、エンドユーザーに影響を与えることなく開発や破壊的変更を行える場所を設けたいという理由からです。
 
 00:21:03.120 --> 00:21:08.000
-the core team is always extremely busy during&nbsp;
-release time and with release related tasks it
+コアチームは、リリース期間中はリリース関連のタスクで常に非常に忙しいです。
 
 00:21:08.000 --> 00:21:14.560
-involves updating versions of r and bioconductor&nbsp;
-on minimumly the six builders emailing maintainers
+それは最低6つのビルダーで R と Bioconductor のバージョンを更新すること、
 
 00:21:14.560 --> 00:21:19.120
-that ignored the build failure notifications to&nbsp;
-try and fix their packages to avoid deprecation
+Bioconductorから廃止予定とされることや除去されることを避けるようにパッケージの修正を試みるためのビルド失敗の通知が無視されていることをメンテナーに伝えるeメール、
 
 00:21:19.120 --> 00:21:24.720
-and removal from bioconductor reviewing the&nbsp;
-influx of newly submitted packages for inclusion
+新たに投稿されたパッケージのレビュー、
 
 00:21:25.760 --> 00:21:31.280
-fixing or modifying any core packages that&nbsp;
-require such attention adding release related
+注意を必要とするコアパッケージの修正または変更、リリース関連のアノテーションリソースの追加、
 
 00:21:31.280 --> 00:21:37.680
-annotation resources creating new branches on&nbsp;
-get.bioconductor.org for all the packages for
+新しいリリースのすべてのパッケージに対する git.bioconductor.org での新しいブランチの作成、
 
 00:21:37.680 --> 00:21:43.840
-the new release and collating all the news files&nbsp;
-from packages to generate the release announcement
+そして、リリースアナウンスを生成するためのすべてのパッケージのNEWSファイルの照合などです。
 
 00:21:45.280 --> 00:21:50.160
-there is another key infrastructure piece that&nbsp;
-the core team maintains that has gained increasing
+コアチームがメンテしている、最近人気が上昇している、また別の重要なインフラの要素があります。
 
 00:21:50.160 --> 00:21:56.160
-popularity in recent years the concept of the&nbsp;
-bioconductor hubs annotation hub and experiment
+それは Bioconductor hubs というコンセプトです。 具体的には AnnotationHub と ExperimentHub というものがあります。
 
 00:21:56.160 --> 00:22:04.000
-hub as a brief background git does not allow large&nbsp;
-files and our current git system does not support
+簡単な背景として、git は大きなファイルを許可せず、私たちの現在の git システムは git-lfs をサポートしていません。
 
 00:22:04.000 --> 00:22:09.440
-get lfs which means there has to be an alternative&nbsp;
-way to provide large data sets to users
+それは、ユーザーに大規模なデータセットを提供するための代替方法が必要であることを意味します。
 
 00:22:10.240 --> 00:22:15.840
+Bioconductorは、データを安全な公共または機関のサーバーでホストすることを主張しています。
+ 
 bioconductor insists data to be hosted on a&nbsp;
 secure public or institutional server like
 
 00:22:15.840 --> 00:22:23.920
-zenodo amazon s3 buckets microsoft azure among&nbsp;
-other trusted sites or direct access to web
+例えば Zenodo、Amazon S3 バケット、Microsoft Azure、他にも信頼できるサイト、もしくは
 
 00:22:23.920 --> 00:22:32.000
-resources or databases if available like ensemble&nbsp;
-or ncbi rather than privately hosting data on say
+もし可能なら GitHub や Dropbox などでデータをプライベートにホストするのではなく Ensemble や NCBI のようなウェブリソースなりデータベースへのダイレクトアクセスといったものです。
 
 00:22:32.000 --> 00:22:37.600
-a github or dropbox if you're developing a&nbsp;
-package we encourage a discussion about data
+もしあなたがパッケージを開発しているなら、私たちは他のプラットフォーム上でのデータホスティングについて議論するのをお勧めします。
 
 00:22:37.600 --> 00:22:46.160
-hosting on other platforms on the bioslee dash&nbsp;
-devel r-projects.org developers mailing list
+bioc-devel@r-project.org の開発者メーリングリストで議論していただけます。
 
 00:22:46.800 --> 00:22:51.440
-if a maintainer does not have access to&nbsp;
-such a resource bioconductor provides
+メンテナーがそのようなリソースにアクセスできない場合は、
 
 00:22:51.440 --> 00:22:58.720
-an amazon s3 bucket for use we are however&nbsp;
-actively investigating a migration of location
+Bioconductor は Amazon S3 バケットを使ってもらえるようにしています。また一方で私たちは Amazon S3 から Microsoft Azure への場所の移行を積極的に調査しています。
 
 00:22:58.720 --> 00:23:06.080
-from amazon s3 to microsoft azure developers can&nbsp;
-download resources directly from the trusted sites
+開発者は信頼できるサイトから直接リソースをダウンロードできますが、
 
 00:23:06.720 --> 00:23:11.840
-but must implement a caching mechanism in&nbsp;
-the background and we highly recommend the
+バックグラウンドでキャッシュメカニズムを実装する必要があります。
 
 00:23:11.840 --> 00:23:18.640
-bioconductor core package bioc file cache the&nbsp;
-other alternative to downloading directly and
+そこで私たちは Bioconductor のコアパッケージ BiocFileCache を強くお勧めします。
 
 00:23:18.640 --> 00:23:24.000
-implementing bios you file cache is to list the&nbsp;
-data in the annotation hub or experiment hub
+直接ダウンロードし、そしてBiocFileCacheを実装することの代替方法は、データを AnnotationHub もしくは ExperimentHub にデータを載せることです。
 
 00:23:24.720 --> 00:23:29.680
-the annotation hub and the experiment hub are&nbsp;
-databases with references to the external data
+AnnotationHub と ExperimentHub は、ダウンロードする外部データへの参照を持つデータベースです。
 
 00:23:29.680 --> 00:23:36.560
-for download the hub interfaces provide a querying&nbsp;
-mechanism on metadata provided at inclusion of the
+Hub インターフェイスは、データベースにデータを含めるときに提供されるメタデータへのクエリメカニズムを提供します。
 
 00:23:36.560 --> 00:23:42.560
-data into the database when using the hub&nbsp;
-interface for download it already uses bioc
+ダウンロードに Hub インターフェイスを使う時、それはすでに
 
 00:23:42.560 --> 00:23:48.800
-file cache as a caching mechanism so a maintainer&nbsp;
-does not have to implement it themselves the other
+BiocFileCache をキャッシングメカニズムとして使っています。そのためメンテナーはそれを自分で実装する必要はありません。
 
 00:23:48.800 --> 00:23:54.800
-advantage to listing the data in the hubs is the&nbsp;
-findability of resources outside of r or outside
+Hub にデータを載せることの他の利点は、Rの外部または
 
 00:23:54.800 --> 00:24:00.880
-the use of the associated bioconductor package&nbsp;
-there are bioconductor core packages experiment
+関連する Bioconductor パッケージの利用外のリソースの見つけやすさです。 Bioconductor のコアパッケージには
 
 00:24:00.880 --> 00:24:05.920
-hub and annotation hub that can be queried for&nbsp;
-data of different types or from different sources
+ExperimentHub と AnnotationHub があり、それらは異なるタイプの、もしくは異なるソースからのデータをクエリーできます。
 
 00:24:06.480 --> 00:24:11.760
-the resources can be searched either through a&nbsp;
-query performed within r or investigation through
+リソースは、R内で実行されるクエリまたは
 
 00:24:11.760 --> 00:24:17.840
-the hub apis and annotationhub.bioconductor.org&nbsp;
-or experimenthub.bioconductor
+annotationhub.bioconductor.org もしくは experimenthub.bioconductor.org での Hub の API を用いた調査のいずれかで検索できます。
 
 00:24:19.120 --> 00:24:24.320
-the api is admittedly a little crude and&nbsp;
-we are working on a revamp there's also a
+そのAPIは認めざるを得ないことですがまだ粗雑であり、私たちは今改良に取り組んでいます。
 
 00:24:24.320 --> 00:24:28.960
-shiny version to query hub resources that has&nbsp;
-been developed and should be announced soon
+Hub のリソースをクエリーする Shiny 版もあります。それはまだ開発中でまもなくアナウンスされるはずです。
 
 00:24:29.760 --> 00:24:35.840
-the query function in r will take a list of terms&nbsp;
-and return resources matching search criteria
+Rのクエリー関数は、用語のリストを取得し、検索条件に一致するリソースを返します。
 
 00:24:35.840 --> 00:24:42.400
-for example you can see we queried&nbsp;
-here for ensembl gtf release 103
+例えばここでは ensembl、gtf、release-103、そして homo sapiens でクエリーしたところ、
 
 00:24:42.400 --> 00:24:48.640
-and homo sapiens which returned four results a&nbsp;
-single bracket using the ahid of interest will
+それが4つの結果を返したことが分かるでしょう。興味のある ah_id を用いた角括弧1つの囲みは
 
 00:24:48.640 --> 00:24:54.160
-give more information on the resource and a double&nbsp;
-bracket will download and cache the resource
+リソースに関する詳細情報を提供します。そして角括弧2重の囲みはリソースをダウンロードしてキャッシュします。
 
 00:24:55.520 --> 00:25:00.240
-the requirement to add data to the hubs&nbsp;
-is a package that is already or will be
+Hub にデータを追加するための要件は、すでに存在するパッケージもしくは
 
 00:25:00.240 --> 00:25:06.560
-submitted to bioconductor that includes an&nbsp;
-inst metadata.csv file with metadata for the
+Bioconductorに投稿されるであろうパッケージが、データベースに追加されるであろうリソースのためのメタデータを持つ inst/metadata.csv と、
 
 00:25:06.560 --> 00:25:12.800
-resources that will be added to the database and&nbsp;
-an in-script directory with files that indicate
+次を示すファイルを持つ inst/script ディレクトリを含んでいることです。
 
 00:25:12.800 --> 00:25:19.760
-how the data was generated and relevant source&nbsp;
-information the vignette creating a hub package
+それはデータがどのように生成されたか、および関連するソース情報になります。
 
 00:25:19.760 --> 00:25:26.000
-experiment hub or annotation hub in the core&nbsp;
-package hub pub describes this in more detail
+コアパッケージである HubPub 中の vignette 「Creating A Hub Package: ExperimentHub or AnnotationHub」はこれをもっと詳しく説明しています。
 
 00:25:26.800 --> 00:25:30.880
-other questions can be directed to&nbsp;
-the hubs at bioconductor.org email
+他の質問は hubs@bioconductor.org にeメールしていただけます。
 
 00:25:31.520 --> 00:25:36.480
+Hub は現在、コアチームからの多くのやり取りを含んでいます。
 the hubs currently involve a lot of interaction&nbsp;
-from the core team we are working on making
+from the core team
+ 
+ we are working on making
 
 00:25:36.480 --> 00:25:42.080
+私たちは、それをよりシンプルで簡単にするために、機能強化と再構築に取り組んでいます。
+ 
 enhancements and restructure to try to make it&nbsp;
 simpler and easier to submit and maintain hub data
 
 00:25:42.080 --> 00:25:48.160
-with limited core team interaction currently when&nbsp;
-data is submitted to the hubs a core team member
+それは限られたコアチームの意思疎通で Hub のデータを投稿そして維持するためにです。今のところ、データが Hub に投稿されると、コアチームメンバーが
 
 00:25:48.160 --> 00:25:53.760
 will evaluate the data and metadata provided&nbsp;
