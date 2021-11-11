@@ -1,0 +1,3 @@
+files:
+  - source: /talks_and_transcripts/*.srt
+    translation: '%language%_transcripts/%original_file_name%'
