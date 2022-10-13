@@ -8,7 +8,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        (As of June 2021, "events" are assumed to be "virtual events" only.)
         Submit this form and your event will be listed on the bioconductor.org calendar.
         Please review the following minimum requirements before submitting this form:
         
