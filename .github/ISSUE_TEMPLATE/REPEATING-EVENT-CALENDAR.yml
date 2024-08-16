@@ -11,7 +11,6 @@ body:
       label: Where is your event located?
       description: Also tell us if it is virtual or not.
       placeholder: Tell us where we meet!
-      value: "REPLACE ME"
     validations:
       required: true
   - type: dropdown
@@ -20,9 +19,10 @@ body:
       label: The types of your repeating (that Google Calendar supports) step1
       description: How does your event repeat?
       options:
-        - Weekly on ___day
-        - Monthly on ___th
         - Repeat every ___ , Repeat on ___ , Ends on ___ / Ends after ___ occurrences
+        - Monthly on ___th
+        - Weekly on ___day
+      default: 0
     validations:
       required: false
   - type: textarea
@@ -31,6 +31,5 @@ body:
       label: The types of your repeating (that Google Calendar supports) step2
       description: Add the information where it says ___ in the previous option.
       placeholder: For example, Repeat every Month, Repeat on the third Friday, Ends after 3 occurrences
-      value: "REPLACE ME"
     validations:
       required: false
