@@ -9,14 +9,14 @@ body:
     id: whereis
     attributes:
       label: Where is your event located?
-      description: Also tell us if it is virtual or not.
-      placeholder: Tell us where we meet!
+      description: Also tell us your event time-zone + if it is virtual or not.
+      placeholder: Tell us your event time-zone + if it is virtual or not.
     validations:
       required: true
   - type: dropdown
-    id: gcalrepeating1
+    id: gcalrepeatingdate1
     attributes:
-      label: The types of your repeating (that Google Calendar supports) step1
+      label: The types of your repeating (that Google Calendar supports) date step1
       description: How does your event repeat?
       options:
         - Repeat every ___ , Repeat on ___ , Ends on ___ / Ends after ___ occurrences
@@ -26,10 +26,26 @@ body:
     validations:
       required: false
   - type: textarea
-    id: gcalrepeating2
+    id: gcalrepeatingdate2
     attributes:
-      label: The types of your repeating (that Google Calendar supports) step2
+      label: The types of your repeating (that Google Calendar supports) date step2
       description: Add the information where it says ___ in the previous option.
       placeholder: For example, Repeat every Month, Repeat on the third Friday, Ends after 3 occurrences
+    validations:
+      required: false
+  - type: textarea
+    id: gcalrepetingtime
+    attributes:
+      label: Time at which the above repeats occur
+      description: please specify the time.
+      placeholder: 5:00PM-6:00PM
+    validations:
+      required: false
+  - type: textarea
+    id: otherthangcalrepeatingdate
+    attributes:
+      label: If your event repeats in a manner other than the Google Calendar support types above,
+      description: please specify a list of dates and times.
+      placeholder: Apr 4, May 5 5:00PM-6:00PM, Jun 6 6PM-6PM, Jul 7 7PM-7PM, Aug 8 8PM-8
     validations:
       required: false
