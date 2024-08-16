@@ -11,27 +11,26 @@ body:
       label: Where is your event located?
       description: Also tell us if it is virtual or not.
       placeholder: Tell us where we meet!
-      value: "A bug happened!"
+      value: "REPLACE ME"
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: gcalrepeating1
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: The types of your repeating (that Google Calendar supports) step1
+      description: How does your event repeat?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
+        - Weekly on ___day
+        - Monthly on ___th
+        - Repeat every ___ , Repeat on ___ , Ends on ___ / Ends after ___ occurrences
     validations:
-      required: true
-  - type: dropdown
-    id: browsers
+      required: false
+  - type: textarea
+    id: gcalrepeating2
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: The types of your repeating (that Google Calendar supports) step2
+      description: Add the information where it says ___ in the previous option.
+      placeholder: For example, Repeat every Month, Repeat on the third Friday, Ends after 3 occurrences
+      value: "REPLACE ME"
+    validations:
+      required: false
