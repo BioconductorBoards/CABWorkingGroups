@@ -36,12 +36,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: event-location
+    id: whereis
     attributes:
-      label: Location
-      description: Write a location of your event.
-      placeholder: Tell us your event location!
-      value: "event location"
+      label: Where is your event located?
+      description: Also tell us your event location and time-zone + if it is virtual or not.
+      placeholder: Tell us your event location and time-zone + if it is virtual or not.
     validations:
       required: true
   - type: textarea
@@ -53,27 +52,54 @@ body:
       value: "https://eventwebsite.com"
     validations:
       required: true
-  - type: textarea
-    id: startdatetime
+  - type: dropdown
+    id: repeatingORoneoff
     attributes:
-      label: Start date and time
-      description: When does the event start?
+      label: Repeating or one-off events?
+      description: Select either
+      options:
+        - Repeating
+        - One-off
+      default: 0
     validations:
       required: true
-  - type: textarea
-    id: enddatetime
+
+  - type: dropdown
+    id: gcalrepeatingdate1
     attributes:
-      label: End date and time
-      description: When does the event end?
+      label: If you selected "Repeating", select below. If you selected "One-off", skip this.
+      description: How does your event repeat?
+      options:
+        - Repeat every ___ , Repeat on ___ , Ends on ___ / Ends after ___ occurrences
+        - Monthly on ___th
+        - Weekly on ___day
+      default: 0
     validations:
-      required: true
+      required: false
   - type: textarea
-    id: timezone
+    id: gcalrepeatingdate2
     attributes:
-      label: Time zone
-      description: What is the time zone for the event date and time?
+      label: If you selected "Repeating", select below also. If you selected "One-off", skip this.
+      description: Add the information where it says ___ in the previous option.
+      placeholder: For example, Repeat every Month, Repeat on the third Friday, Ends after 3 occurrences
     validations:
-      required: true
+      required: false
+  - type: textarea
+    id: gcalrepetingtime
+    attributes:
+      label: If you selected "Repeating", specify the time at which the repeats occur. If you selected "One-off", skip this.
+      description: Specify the time.
+      placeholder: 5:00PM-6:00PM
+    validations:
+      required: false
+  - type: textarea
+    id: othertype
+    attributes:
+      label: If you selected "One-off" or your event repeats in a manner other than the Google Calendar support types above,
+      description: Specify a date and time or a list of dates and times.
+      placeholder: Apr 4, May 5 5:00PM-6:00PM, Jun 6 6PM-6PM, Jul 7 7PM-7PM, Aug 8 8PM-8
+    validations:
+      required: false
   - type: input
     id: contact
     attributes:
